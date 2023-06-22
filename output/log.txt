@@ -1,0 +1,1919 @@
+2022-12-08 19:19:25,416:INFO: Effective parameters:
+2022-12-08 19:19:25,416:INFO:   <<< batch_size: 256
+2022-12-08 19:19:25,416:INFO:   <<< batch_size_val: 3500
+2022-12-08 19:19:25,416:INFO:   <<< coef_lr: 1.0
+2022-12-08 19:19:25,416:INFO:   <<< data_path: data/caption.pickle
+2022-12-08 19:19:25,416:INFO:   <<< do_eval: False
+2022-12-08 19:19:25,416:INFO:   <<< do_pretrain: False
+2022-12-08 19:19:25,416:INFO:   <<< do_train: False
+2022-12-08 19:19:25,417:INFO:   <<< epochs: 20
+2022-12-08 19:19:25,417:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-08 19:19:25,417:INFO:   <<< feature_framerate: 1
+2022-12-08 19:19:25,417:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-08 19:19:25,417:INFO:   <<< freeze_layer_num: 0
+2022-12-08 19:19:25,417:INFO:   <<< hard_negative_rate: 0.5
+2022-12-08 19:19:25,417:INFO:   <<< local_rank: 0
+2022-12-08 19:19:25,417:INFO:   <<< loose_type: False
+2022-12-08 19:19:25,417:INFO:   <<< lr: 0.0001
+2022-12-08 19:19:25,417:INFO:   <<< lr_decay: 0.9
+2022-12-08 19:19:25,417:INFO:   <<< margin: 0.1
+2022-12-08 19:19:25,417:INFO:   <<< max_frames: 100
+2022-12-08 19:19:25,417:INFO:   <<< max_words: 20
+2022-12-08 19:19:25,418:INFO:   <<< n_display: 100
+2022-12-08 19:19:25,418:INFO:   <<< n_gpu: 1
+2022-12-08 19:19:25,418:INFO:   <<< n_pair: 1
+2022-12-08 19:19:25,418:INFO:   <<< negative_weighting: 1
+2022-12-08 19:19:25,418:INFO:   <<< num_thread_reader: 1
+2022-12-08 19:19:25,418:INFO:   <<< output_dir: output
+2022-12-08 19:19:25,418:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-08 19:19:25,418:INFO:   <<< rank: 1
+2022-12-08 19:19:25,418:INFO:   <<< seed: 42
+2022-12-08 19:19:25,418:INFO:   <<< train_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-08 19:19:25,418:INFO:   <<< val_csv: data/.val.csv
+2022-12-08 19:19:25,418:INFO:   <<< video_dim: 1024
+2022-12-08 19:19:25,418:INFO:   <<< world_size: 20
+2022-12-08 19:19:25,418:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 13:15:45,241:INFO: Effective parameters:
+2022-12-09 13:15:45,265:INFO:   <<< batch_size: 256
+2022-12-09 13:15:45,265:INFO:   <<< batch_size_val: 3500
+2022-12-09 13:15:45,265:INFO:   <<< coef_lr: 1.0
+2022-12-09 13:15:45,265:INFO:   <<< data_path: data/caption.pickle
+2022-12-09 13:15:45,265:INFO:   <<< do_eval: False
+2022-12-09 13:15:45,265:INFO:   <<< do_pretrain: False
+2022-12-09 13:15:45,265:INFO:   <<< do_train: False
+2022-12-09 13:15:45,265:INFO:   <<< epochs: 20
+2022-12-09 13:15:45,265:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-09 13:15:45,265:INFO:   <<< feature_framerate: 1
+2022-12-09 13:15:45,265:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-09 13:15:45,265:INFO:   <<< freeze_layer_num: 0
+2022-12-09 13:15:45,265:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 13:15:45,265:INFO:   <<< local_rank: 0
+2022-12-09 13:15:45,265:INFO:   <<< loose_type: False
+2022-12-09 13:15:45,266:INFO:   <<< lr: 0.0001
+2022-12-09 13:15:45,266:INFO:   <<< lr_decay: 0.9
+2022-12-09 13:15:45,266:INFO:   <<< margin: 0.1
+2022-12-09 13:15:45,266:INFO:   <<< max_frames: 100
+2022-12-09 13:15:45,266:INFO:   <<< max_words: 20
+2022-12-09 13:15:45,266:INFO:   <<< n_display: 100
+2022-12-09 13:15:45,266:INFO:   <<< n_gpu: 1
+2022-12-09 13:15:45,266:INFO:   <<< n_pair: 1
+2022-12-09 13:15:45,266:INFO:   <<< negative_weighting: 1
+2022-12-09 13:15:45,266:INFO:   <<< num_thread_reader: 1
+2022-12-09 13:15:45,266:INFO:   <<< output_dir: output
+2022-12-09 13:15:45,266:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 13:15:45,266:INFO:   <<< rank: 1
+2022-12-09 13:15:45,266:INFO:   <<< seed: 42
+2022-12-09 13:15:45,266:INFO:   <<< train_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-09 13:15:45,266:INFO:   <<< val_csv: data/.val.csv
+2022-12-09 13:15:45,266:INFO:   <<< video_dim: 1024
+2022-12-09 13:15:45,266:INFO:   <<< world_size: 20
+2022-12-09 13:15:45,266:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 13:17:07,949:INFO: Effective parameters:
+2022-12-09 13:17:07,949:INFO:   <<< batch_size: 256
+2022-12-09 13:17:07,949:INFO:   <<< batch_size_val: 3500
+2022-12-09 13:17:07,949:INFO:   <<< coef_lr: 1.0
+2022-12-09 13:17:07,949:INFO:   <<< data_path: data/caption.pickle
+2022-12-09 13:17:07,949:INFO:   <<< do_eval: False
+2022-12-09 13:17:07,950:INFO:   <<< do_pretrain: False
+2022-12-09 13:17:07,950:INFO:   <<< do_train: False
+2022-12-09 13:17:07,950:INFO:   <<< epochs: 20
+2022-12-09 13:17:07,950:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-09 13:17:07,950:INFO:   <<< feature_framerate: 1
+2022-12-09 13:17:07,950:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-09 13:17:07,950:INFO:   <<< freeze_layer_num: 0
+2022-12-09 13:17:07,950:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 13:17:07,950:INFO:   <<< local_rank: 0
+2022-12-09 13:17:07,950:INFO:   <<< loose_type: False
+2022-12-09 13:17:07,950:INFO:   <<< lr: 0.0001
+2022-12-09 13:17:07,950:INFO:   <<< lr_decay: 0.9
+2022-12-09 13:17:07,950:INFO:   <<< margin: 0.1
+2022-12-09 13:17:07,950:INFO:   <<< max_frames: 100
+2022-12-09 13:17:07,950:INFO:   <<< max_words: 20
+2022-12-09 13:17:07,950:INFO:   <<< n_display: 100
+2022-12-09 13:17:07,950:INFO:   <<< n_gpu: 1
+2022-12-09 13:17:07,950:INFO:   <<< n_pair: 1
+2022-12-09 13:17:07,950:INFO:   <<< negative_weighting: 1
+2022-12-09 13:17:07,951:INFO:   <<< num_thread_reader: 1
+2022-12-09 13:17:07,951:INFO:   <<< output_dir: output
+2022-12-09 13:17:07,951:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 13:17:07,951:INFO:   <<< rank: 1
+2022-12-09 13:17:07,951:INFO:   <<< seed: 42
+2022-12-09 13:17:07,951:INFO:   <<< train_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-09 13:17:07,951:INFO:   <<< val_csv: data/.val.csv
+2022-12-09 13:17:07,951:INFO:   <<< video_dim: 1024
+2022-12-09 13:17:07,951:INFO:   <<< world_size: 20
+2022-12-09 13:17:07,952:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 13:24:22,715:INFO: Effective parameters:
+2022-12-09 13:24:22,715:INFO:   <<< batch_size: 256
+2022-12-09 13:24:22,715:INFO:   <<< batch_size_val: 3500
+2022-12-09 13:24:22,715:INFO:   <<< coef_lr: 1.0
+2022-12-09 13:24:22,715:INFO:   <<< data_path: data/caption.pickle
+2022-12-09 13:24:22,715:INFO:   <<< do_eval: False
+2022-12-09 13:24:22,715:INFO:   <<< do_pretrain: False
+2022-12-09 13:24:22,715:INFO:   <<< do_train: False
+2022-12-09 13:24:22,715:INFO:   <<< epochs: 20
+2022-12-09 13:24:22,715:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-09 13:24:22,715:INFO:   <<< feature_framerate: 1
+2022-12-09 13:24:22,716:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-09 13:24:22,716:INFO:   <<< freeze_layer_num: 0
+2022-12-09 13:24:22,716:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 13:24:22,716:INFO:   <<< local_rank: 0
+2022-12-09 13:24:22,716:INFO:   <<< loose_type: False
+2022-12-09 13:24:22,716:INFO:   <<< lr: 0.0001
+2022-12-09 13:24:22,716:INFO:   <<< lr_decay: 0.9
+2022-12-09 13:24:22,716:INFO:   <<< margin: 0.1
+2022-12-09 13:24:22,716:INFO:   <<< max_frames: 100
+2022-12-09 13:24:22,716:INFO:   <<< max_words: 20
+2022-12-09 13:24:22,716:INFO:   <<< n_display: 100
+2022-12-09 13:24:22,716:INFO:   <<< n_gpu: 1
+2022-12-09 13:24:22,716:INFO:   <<< n_pair: 1
+2022-12-09 13:24:22,716:INFO:   <<< negative_weighting: 1
+2022-12-09 13:24:22,716:INFO:   <<< num_thread_reader: 1
+2022-12-09 13:24:22,716:INFO:   <<< output_dir: output
+2022-12-09 13:24:22,717:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 13:24:22,717:INFO:   <<< rank: 1
+2022-12-09 13:24:22,717:INFO:   <<< seed: 42
+2022-12-09 13:24:22,717:INFO:   <<< train_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-09 13:24:22,717:INFO:   <<< val_csv: data/.val.csv
+2022-12-09 13:24:22,717:INFO:   <<< video_dim: 1024
+2022-12-09 13:24:22,717:INFO:   <<< world_size: 20
+2022-12-09 13:24:22,717:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 13:30:59,671:INFO: Effective parameters:
+2022-12-09 13:30:59,671:INFO:   <<< batch_size: 256
+2022-12-09 13:30:59,671:INFO:   <<< batch_size_val: 3500
+2022-12-09 13:30:59,671:INFO:   <<< coef_lr: 1.0
+2022-12-09 13:30:59,671:INFO:   <<< data_path: data/caption.pickle
+2022-12-09 13:30:59,671:INFO:   <<< do_eval: False
+2022-12-09 13:30:59,671:INFO:   <<< do_pretrain: False
+2022-12-09 13:30:59,671:INFO:   <<< do_train: False
+2022-12-09 13:30:59,672:INFO:   <<< epochs: 20
+2022-12-09 13:30:59,672:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-09 13:30:59,672:INFO:   <<< feature_framerate: 1
+2022-12-09 13:30:59,672:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-09 13:30:59,672:INFO:   <<< freeze_layer_num: 0
+2022-12-09 13:30:59,672:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 13:30:59,672:INFO:   <<< local_rank: 0
+2022-12-09 13:30:59,672:INFO:   <<< loose_type: False
+2022-12-09 13:30:59,672:INFO:   <<< lr: 0.0001
+2022-12-09 13:30:59,672:INFO:   <<< lr_decay: 0.9
+2022-12-09 13:30:59,672:INFO:   <<< margin: 0.1
+2022-12-09 13:30:59,672:INFO:   <<< max_frames: 100
+2022-12-09 13:30:59,672:INFO:   <<< max_words: 20
+2022-12-09 13:30:59,672:INFO:   <<< n_display: 100
+2022-12-09 13:30:59,672:INFO:   <<< n_gpu: 1
+2022-12-09 13:30:59,672:INFO:   <<< n_pair: 1
+2022-12-09 13:30:59,673:INFO:   <<< negative_weighting: 1
+2022-12-09 13:30:59,673:INFO:   <<< num_thread_reader: 1
+2022-12-09 13:30:59,673:INFO:   <<< output_dir: output
+2022-12-09 13:30:59,673:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 13:30:59,673:INFO:   <<< rank: 1
+2022-12-09 13:30:59,673:INFO:   <<< seed: 42
+2022-12-09 13:30:59,673:INFO:   <<< train_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-09 13:30:59,673:INFO:   <<< val_csv: data/.val.csv
+2022-12-09 13:30:59,673:INFO:   <<< video_dim: 1024
+2022-12-09 13:30:59,673:INFO:   <<< world_size: 20
+2022-12-09 13:30:59,673:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 13:32:32,435:INFO: Effective parameters:
+2022-12-09 13:32:32,435:INFO:   <<< batch_size: 256
+2022-12-09 13:32:32,435:INFO:   <<< batch_size_val: 3500
+2022-12-09 13:32:32,435:INFO:   <<< coef_lr: 1.0
+2022-12-09 13:32:32,435:INFO:   <<< data_path: data/caption.pickle
+2022-12-09 13:32:32,435:INFO:   <<< do_eval: False
+2022-12-09 13:32:32,435:INFO:   <<< do_pretrain: False
+2022-12-09 13:32:32,436:INFO:   <<< do_train: False
+2022-12-09 13:32:32,436:INFO:   <<< epochs: 20
+2022-12-09 13:32:32,436:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-09 13:32:32,436:INFO:   <<< feature_framerate: 1
+2022-12-09 13:32:32,436:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-09 13:32:32,436:INFO:   <<< freeze_layer_num: 0
+2022-12-09 13:32:32,436:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 13:32:32,436:INFO:   <<< local_rank: 0
+2022-12-09 13:32:32,436:INFO:   <<< loose_type: False
+2022-12-09 13:32:32,436:INFO:   <<< lr: 0.0001
+2022-12-09 13:32:32,436:INFO:   <<< lr_decay: 0.9
+2022-12-09 13:32:32,436:INFO:   <<< margin: 0.1
+2022-12-09 13:32:32,437:INFO:   <<< max_frames: 100
+2022-12-09 13:32:32,437:INFO:   <<< max_words: 20
+2022-12-09 13:32:32,437:INFO:   <<< n_display: 100
+2022-12-09 13:32:32,437:INFO:   <<< n_gpu: 1
+2022-12-09 13:32:32,437:INFO:   <<< n_pair: 1
+2022-12-09 13:32:32,437:INFO:   <<< negative_weighting: 1
+2022-12-09 13:32:32,437:INFO:   <<< num_thread_reader: 1
+2022-12-09 13:32:32,437:INFO:   <<< output_dir: output
+2022-12-09 13:32:32,437:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 13:32:32,437:INFO:   <<< rank: 1
+2022-12-09 13:32:32,437:INFO:   <<< seed: 42
+2022-12-09 13:32:32,437:INFO:   <<< train_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-09 13:32:32,437:INFO:   <<< val_csv: data/.val.csv
+2022-12-09 13:32:32,437:INFO:   <<< video_dim: 1024
+2022-12-09 13:32:32,437:INFO:   <<< world_size: 20
+2022-12-09 13:32:32,437:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 13:32:57,022:INFO: Effective parameters:
+2022-12-09 13:32:57,022:INFO:   <<< batch_size: 256
+2022-12-09 13:32:57,022:INFO:   <<< batch_size_val: 3500
+2022-12-09 13:32:57,022:INFO:   <<< coef_lr: 1.0
+2022-12-09 13:32:57,022:INFO:   <<< data_path: data/caption.pickle
+2022-12-09 13:32:57,023:INFO:   <<< do_eval: False
+2022-12-09 13:32:57,023:INFO:   <<< do_pretrain: False
+2022-12-09 13:32:57,023:INFO:   <<< do_train: False
+2022-12-09 13:32:57,023:INFO:   <<< epochs: 20
+2022-12-09 13:32:57,023:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-09 13:32:57,023:INFO:   <<< feature_framerate: 1
+2022-12-09 13:32:57,023:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-09 13:32:57,023:INFO:   <<< freeze_layer_num: 0
+2022-12-09 13:32:57,023:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 13:32:57,023:INFO:   <<< local_rank: 0
+2022-12-09 13:32:57,023:INFO:   <<< loose_type: False
+2022-12-09 13:32:57,023:INFO:   <<< lr: 0.0001
+2022-12-09 13:32:57,023:INFO:   <<< lr_decay: 0.9
+2022-12-09 13:32:57,023:INFO:   <<< margin: 0.1
+2022-12-09 13:32:57,023:INFO:   <<< max_frames: 100
+2022-12-09 13:32:57,023:INFO:   <<< max_words: 20
+2022-12-09 13:32:57,023:INFO:   <<< n_display: 100
+2022-12-09 13:32:57,023:INFO:   <<< n_gpu: 1
+2022-12-09 13:32:57,023:INFO:   <<< n_pair: 1
+2022-12-09 13:32:57,023:INFO:   <<< negative_weighting: 1
+2022-12-09 13:32:57,023:INFO:   <<< num_thread_reader: 1
+2022-12-09 13:32:57,023:INFO:   <<< output_dir: output
+2022-12-09 13:32:57,023:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 13:32:57,023:INFO:   <<< rank: 1
+2022-12-09 13:32:57,024:INFO:   <<< seed: 42
+2022-12-09 13:32:57,024:INFO:   <<< train_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-09 13:32:57,024:INFO:   <<< val_csv: data/.val.csv
+2022-12-09 13:32:57,024:INFO:   <<< video_dim: 1024
+2022-12-09 13:32:57,024:INFO:   <<< world_size: 20
+2022-12-09 13:32:57,024:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 13:37:09,023:INFO: Effective parameters:
+2022-12-09 13:37:09,023:INFO:   <<< batch_size: 256
+2022-12-09 13:37:09,023:INFO:   <<< batch_size_val: 3500
+2022-12-09 13:37:09,023:INFO:   <<< coef_lr: 1.0
+2022-12-09 13:37:09,024:INFO:   <<< data_path: data/caption.pickle
+2022-12-09 13:37:09,024:INFO:   <<< do_eval: False
+2022-12-09 13:37:09,024:INFO:   <<< do_pretrain: False
+2022-12-09 13:37:09,024:INFO:   <<< do_train: False
+2022-12-09 13:37:09,024:INFO:   <<< epochs: 20
+2022-12-09 13:37:09,024:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-09 13:37:09,024:INFO:   <<< feature_framerate: 1
+2022-12-09 13:37:09,024:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-09 13:37:09,024:INFO:   <<< freeze_layer_num: 0
+2022-12-09 13:37:09,024:INFO:   <<< hard_negative_rate: 0.5
+2022-12-09 13:37:09,024:INFO:   <<< local_rank: 0
+2022-12-09 13:37:09,024:INFO:   <<< loose_type: False
+2022-12-09 13:37:09,024:INFO:   <<< lr: 0.0001
+2022-12-09 13:37:09,024:INFO:   <<< lr_decay: 0.9
+2022-12-09 13:37:09,024:INFO:   <<< margin: 0.1
+2022-12-09 13:37:09,024:INFO:   <<< max_frames: 100
+2022-12-09 13:37:09,024:INFO:   <<< max_words: 20
+2022-12-09 13:37:09,024:INFO:   <<< n_display: 100
+2022-12-09 13:37:09,024:INFO:   <<< n_gpu: 1
+2022-12-09 13:37:09,024:INFO:   <<< n_pair: 1
+2022-12-09 13:37:09,025:INFO:   <<< negative_weighting: 1
+2022-12-09 13:37:09,025:INFO:   <<< num_thread_reader: 1
+2022-12-09 13:37:09,025:INFO:   <<< output_dir: output
+2022-12-09 13:37:09,025:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-09 13:37:09,025:INFO:   <<< rank: 1
+2022-12-09 13:37:09,025:INFO:   <<< seed: 42
+2022-12-09 13:37:09,025:INFO:   <<< train_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-09 13:37:09,025:INFO:   <<< val_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-09 13:37:09,025:INFO:   <<< video_dim: 1024
+2022-12-09 13:37:09,025:INFO:   <<< world_size: 20
+2022-12-09 13:37:09,025:INFO: device: cuda:0 n_gpu: 1
+2022-12-09 13:37:16,390:INFO: ***** Running test *****
+2022-12-09 13:37:16,390:INFO:   Num examples = 7010
+2022-12-09 13:37:16,390:INFO:   Batch size = 3500
+2022-12-09 13:37:16,390:INFO:   Num steps = 3
+2022-12-09 13:37:16,390:INFO: ***** Running val *****
+2022-12-09 13:37:16,390:INFO:   Num examples = 7010
+2022-12-21 10:38:41,539:INFO: Effective parameters:
+2022-12-21 10:38:41,539:INFO:   <<< batch_size: 256
+2022-12-21 10:38:41,540:INFO:   <<< batch_size_val: 3500
+2022-12-21 10:38:41,540:INFO:   <<< coef_lr: 1.0
+2022-12-21 10:38:41,540:INFO:   <<< data_path: data/caption.pickle
+2022-12-21 10:38:41,540:INFO:   <<< do_eval: False
+2022-12-21 10:38:41,540:INFO:   <<< do_pretrain: False
+2022-12-21 10:38:41,540:INFO:   <<< do_train: False
+2022-12-21 10:38:41,540:INFO:   <<< epochs: 20
+2022-12-21 10:38:41,540:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-21 10:38:41,540:INFO:   <<< feature_framerate: 1
+2022-12-21 10:38:41,540:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-21 10:38:41,540:INFO:   <<< freeze_layer_num: 0
+2022-12-21 10:38:41,540:INFO:   <<< hard_negative_rate: 0.5
+2022-12-21 10:38:41,540:INFO:   <<< local_rank: 0
+2022-12-21 10:38:41,540:INFO:   <<< loose_type: False
+2022-12-21 10:38:41,540:INFO:   <<< lr: 0.0001
+2022-12-21 10:38:41,540:INFO:   <<< lr_decay: 0.9
+2022-12-21 10:38:41,540:INFO:   <<< margin: 0.1
+2022-12-21 10:38:41,540:INFO:   <<< max_frames: 100
+2022-12-21 10:38:41,540:INFO:   <<< max_words: 20
+2022-12-21 10:38:41,540:INFO:   <<< n_display: 100
+2022-12-21 10:38:41,540:INFO:   <<< n_gpu: 1
+2022-12-21 10:38:41,540:INFO:   <<< n_pair: 1
+2022-12-21 10:38:41,540:INFO:   <<< negative_weighting: 1
+2022-12-21 10:38:41,541:INFO:   <<< num_thread_reader: 1
+2022-12-21 10:38:41,541:INFO:   <<< output_dir: output
+2022-12-21 10:38:41,541:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-21 10:38:41,541:INFO:   <<< rank: 1
+2022-12-21 10:38:41,541:INFO:   <<< seed: 42
+2022-12-21 10:38:41,541:INFO:   <<< train_csv: data/.train.csv
+2022-12-21 10:38:41,541:INFO:   <<< val_csv: data/.val.csv
+2022-12-21 10:38:41,541:INFO:   <<< video_dim: 1024
+2022-12-21 10:38:41,541:INFO:   <<< world_size: 20
+2022-12-21 10:38:41,541:INFO: device: cuda:0 n_gpu: 1
+2022-12-21 10:41:44,493:INFO: Effective parameters:
+2022-12-21 10:41:44,494:INFO:   <<< batch_size: 256
+2022-12-21 10:41:44,494:INFO:   <<< batch_size_val: 3500
+2022-12-21 10:41:44,494:INFO:   <<< coef_lr: 1.0
+2022-12-21 10:41:44,494:INFO:   <<< data_path: data/caption.pickle
+2022-12-21 10:41:44,494:INFO:   <<< do_eval: False
+2022-12-21 10:41:44,494:INFO:   <<< do_pretrain: False
+2022-12-21 10:41:44,494:INFO:   <<< do_train: False
+2022-12-21 10:41:44,494:INFO:   <<< epochs: 20
+2022-12-21 10:41:44,494:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-21 10:41:44,494:INFO:   <<< feature_framerate: 1
+2022-12-21 10:41:44,494:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-21 10:41:44,494:INFO:   <<< freeze_layer_num: 0
+2022-12-21 10:41:44,494:INFO:   <<< hard_negative_rate: 0.5
+2022-12-21 10:41:44,494:INFO:   <<< local_rank: 0
+2022-12-21 10:41:44,494:INFO:   <<< loose_type: False
+2022-12-21 10:41:44,494:INFO:   <<< lr: 0.0001
+2022-12-21 10:41:44,494:INFO:   <<< lr_decay: 0.9
+2022-12-21 10:41:44,494:INFO:   <<< margin: 0.1
+2022-12-21 10:41:44,495:INFO:   <<< max_frames: 100
+2022-12-21 10:41:44,495:INFO:   <<< max_words: 20
+2022-12-21 10:41:44,495:INFO:   <<< n_display: 100
+2022-12-21 10:41:44,495:INFO:   <<< n_gpu: 1
+2022-12-21 10:41:44,495:INFO:   <<< n_pair: 1
+2022-12-21 10:41:44,495:INFO:   <<< negative_weighting: 1
+2022-12-21 10:41:44,495:INFO:   <<< num_thread_reader: 1
+2022-12-21 10:41:44,495:INFO:   <<< output_dir: output
+2022-12-21 10:41:44,495:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-21 10:41:44,495:INFO:   <<< rank: 1
+2022-12-21 10:41:44,495:INFO:   <<< seed: 42
+2022-12-21 10:41:44,495:INFO:   <<< train_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-21 10:41:44,495:INFO:   <<< val_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-21 10:41:44,495:INFO:   <<< video_dim: 1024
+2022-12-21 10:41:44,495:INFO:   <<< world_size: 20
+2022-12-21 10:41:44,495:INFO: device: cuda:0 n_gpu: 1
+2022-12-21 10:41:49,961:INFO: ***** Running test *****
+2022-12-21 10:41:49,961:INFO:   Num examples = 7010
+2022-12-21 10:41:49,961:INFO:   Batch size = 3500
+2022-12-21 10:41:49,962:INFO:   Num steps = 3
+2022-12-21 10:41:49,962:INFO: ***** Running val *****
+2022-12-21 10:41:49,962:INFO:   Num examples = 7010
+2022-12-21 10:44:28,038:INFO: Effective parameters:
+2022-12-21 10:44:28,038:INFO:   <<< batch_size: 256
+2022-12-21 10:44:28,038:INFO:   <<< batch_size_val: 64
+2022-12-21 10:44:28,038:INFO:   <<< coef_lr: 1.0
+2022-12-21 10:44:28,038:INFO:   <<< data_path: data/caption.pickle
+2022-12-21 10:44:28,038:INFO:   <<< do_eval: False
+2022-12-21 10:44:28,038:INFO:   <<< do_pretrain: False
+2022-12-21 10:44:28,038:INFO:   <<< do_train: False
+2022-12-21 10:44:28,038:INFO:   <<< epochs: 20
+2022-12-21 10:44:28,038:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-21 10:44:28,038:INFO:   <<< feature_framerate: 1
+2022-12-21 10:44:28,038:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-21 10:44:28,038:INFO:   <<< freeze_layer_num: 0
+2022-12-21 10:44:28,038:INFO:   <<< hard_negative_rate: 0.5
+2022-12-21 10:44:28,038:INFO:   <<< local_rank: 0
+2022-12-21 10:44:28,038:INFO:   <<< loose_type: False
+2022-12-21 10:44:28,038:INFO:   <<< lr: 0.0001
+2022-12-21 10:44:28,038:INFO:   <<< lr_decay: 0.9
+2022-12-21 10:44:28,039:INFO:   <<< margin: 0.1
+2022-12-21 10:44:28,039:INFO:   <<< max_frames: 100
+2022-12-21 10:44:28,039:INFO:   <<< max_words: 20
+2022-12-21 10:44:28,039:INFO:   <<< n_display: 100
+2022-12-21 10:44:28,039:INFO:   <<< n_gpu: 1
+2022-12-21 10:44:28,039:INFO:   <<< n_pair: 1
+2022-12-21 10:44:28,039:INFO:   <<< negative_weighting: 1
+2022-12-21 10:44:28,039:INFO:   <<< num_thread_reader: 1
+2022-12-21 10:44:28,039:INFO:   <<< output_dir: output
+2022-12-21 10:44:28,039:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-21 10:44:28,039:INFO:   <<< rank: 1
+2022-12-21 10:44:28,039:INFO:   <<< seed: 42
+2022-12-21 10:44:28,039:INFO:   <<< train_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-21 10:44:28,039:INFO:   <<< val_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-21 10:44:28,039:INFO:   <<< video_dim: 1024
+2022-12-21 10:44:28,039:INFO:   <<< world_size: 20
+2022-12-21 10:44:28,039:INFO: device: cuda:0 n_gpu: 1
+2022-12-21 10:44:32,774:INFO: ***** Running test *****
+2022-12-21 10:44:32,774:INFO:   Num examples = 7010
+2022-12-21 10:44:32,774:INFO:   Batch size = 64
+2022-12-21 10:44:32,774:INFO:   Num steps = 110
+2022-12-21 10:44:32,774:INFO: ***** Running val *****
+2022-12-21 10:44:32,774:INFO:   Num examples = 7010
+2022-12-21 10:45:19,110:INFO: Effective parameters:
+2022-12-21 10:45:19,110:INFO:   <<< batch_size: 256
+2022-12-21 10:45:19,110:INFO:   <<< batch_size_val: 64
+2022-12-21 10:45:19,110:INFO:   <<< coef_lr: 1.0
+2022-12-21 10:45:19,110:INFO:   <<< data_path: data/caption.pickle
+2022-12-21 10:45:19,110:INFO:   <<< do_eval: True
+2022-12-21 10:45:19,110:INFO:   <<< do_pretrain: False
+2022-12-21 10:45:19,110:INFO:   <<< do_train: False
+2022-12-21 10:45:19,110:INFO:   <<< epochs: 20
+2022-12-21 10:45:19,110:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-21 10:45:19,110:INFO:   <<< feature_framerate: 1
+2022-12-21 10:45:19,110:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-21 10:45:19,110:INFO:   <<< freeze_layer_num: 0
+2022-12-21 10:45:19,110:INFO:   <<< hard_negative_rate: 0.5
+2022-12-21 10:45:19,110:INFO:   <<< local_rank: 0
+2022-12-21 10:45:19,110:INFO:   <<< loose_type: False
+2022-12-21 10:45:19,110:INFO:   <<< lr: 0.0001
+2022-12-21 10:45:19,110:INFO:   <<< lr_decay: 0.9
+2022-12-21 10:45:19,110:INFO:   <<< margin: 0.1
+2022-12-21 10:45:19,110:INFO:   <<< max_frames: 100
+2022-12-21 10:45:19,110:INFO:   <<< max_words: 20
+2022-12-21 10:45:19,111:INFO:   <<< n_display: 100
+2022-12-21 10:45:19,111:INFO:   <<< n_gpu: 1
+2022-12-21 10:45:19,111:INFO:   <<< n_pair: 1
+2022-12-21 10:45:19,111:INFO:   <<< negative_weighting: 1
+2022-12-21 10:45:19,111:INFO:   <<< num_thread_reader: 1
+2022-12-21 10:45:19,111:INFO:   <<< output_dir: output
+2022-12-21 10:45:19,111:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-21 10:45:19,111:INFO:   <<< rank: 1
+2022-12-21 10:45:19,111:INFO:   <<< seed: 42
+2022-12-21 10:45:19,111:INFO:   <<< train_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-21 10:45:19,111:INFO:   <<< val_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-21 10:45:19,111:INFO:   <<< video_dim: 1024
+2022-12-21 10:45:19,111:INFO:   <<< world_size: 20
+2022-12-21 10:45:19,111:INFO: device: cuda:0 n_gpu: 1
+2022-12-21 10:45:23,807:INFO: ***** Running test *****
+2022-12-21 10:45:23,807:INFO:   Num examples = 7010
+2022-12-21 10:45:23,807:INFO:   Batch size = 64
+2022-12-21 10:45:23,807:INFO:   Num steps = 110
+2022-12-21 10:45:23,807:INFO: ***** Running val *****
+2022-12-21 10:45:23,808:INFO:   Num examples = 7010
+2022-12-21 10:48:56,956:INFO: Effective parameters:
+2022-12-21 10:48:56,956:INFO:   <<< batch_size: 256
+2022-12-21 10:48:56,956:INFO:   <<< batch_size_val: 64
+2022-12-21 10:48:56,956:INFO:   <<< coef_lr: 1.0
+2022-12-21 10:48:56,956:INFO:   <<< data_path: data/caption.pickle
+2022-12-21 10:48:56,956:INFO:   <<< do_eval: True
+2022-12-21 10:48:56,956:INFO:   <<< do_pretrain: False
+2022-12-21 10:48:56,956:INFO:   <<< do_train: False
+2022-12-21 10:48:56,957:INFO:   <<< epochs: 20
+2022-12-21 10:48:56,957:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-21 10:48:56,957:INFO:   <<< feature_framerate: 1
+2022-12-21 10:48:56,957:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-21 10:48:56,957:INFO:   <<< freeze_layer_num: 0
+2022-12-21 10:48:56,957:INFO:   <<< hard_negative_rate: 0.5
+2022-12-21 10:48:56,957:INFO:   <<< local_rank: 0
+2022-12-21 10:48:56,957:INFO:   <<< loose_type: False
+2022-12-21 10:48:56,957:INFO:   <<< lr: 0.0001
+2022-12-21 10:48:56,957:INFO:   <<< lr_decay: 0.9
+2022-12-21 10:48:56,957:INFO:   <<< margin: 0.1
+2022-12-21 10:48:56,957:INFO:   <<< max_frames: 100
+2022-12-21 10:48:56,957:INFO:   <<< max_words: 20
+2022-12-21 10:48:56,957:INFO:   <<< n_display: 100
+2022-12-21 10:48:56,957:INFO:   <<< n_gpu: 1
+2022-12-21 10:48:56,957:INFO:   <<< n_pair: 1
+2022-12-21 10:48:56,957:INFO:   <<< negative_weighting: 1
+2022-12-21 10:48:56,957:INFO:   <<< num_thread_reader: 1
+2022-12-21 10:48:56,957:INFO:   <<< output_dir: output
+2022-12-21 10:48:56,958:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-21 10:48:56,958:INFO:   <<< rank: 1
+2022-12-21 10:48:56,958:INFO:   <<< seed: 42
+2022-12-21 10:48:56,958:INFO:   <<< train_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-21 10:48:56,958:INFO:   <<< val_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-21 10:48:56,958:INFO:   <<< video_dim: 1024
+2022-12-21 10:48:56,958:INFO:   <<< world_size: 20
+2022-12-21 10:48:56,958:INFO: device: cuda:0 n_gpu: 1
+2022-12-21 10:49:01,820:INFO: ***** Running test *****
+2022-12-21 10:49:01,820:INFO:   Num examples = 7010
+2022-12-21 10:49:01,820:INFO:   Batch size = 64
+2022-12-21 10:49:01,820:INFO:   Num steps = 110
+2022-12-21 10:49:01,820:INFO: ***** Running val *****
+2022-12-21 10:49:01,820:INFO:   Num examples = 7010
+2022-12-21 10:50:14,541:INFO: Effective parameters:
+2022-12-21 10:50:14,541:INFO:   <<< batch_size: 256
+2022-12-21 10:50:14,541:INFO:   <<< batch_size_val: 64
+2022-12-21 10:50:14,541:INFO:   <<< coef_lr: 1.0
+2022-12-21 10:50:14,541:INFO:   <<< data_path: data/caption.pickle
+2022-12-21 10:50:14,541:INFO:   <<< do_eval: True
+2022-12-21 10:50:14,541:INFO:   <<< do_pretrain: False
+2022-12-21 10:50:14,541:INFO:   <<< do_train: False
+2022-12-21 10:50:14,541:INFO:   <<< epochs: 20
+2022-12-21 10:50:14,541:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-21 10:50:14,541:INFO:   <<< feature_framerate: 1
+2022-12-21 10:50:14,541:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-21 10:50:14,541:INFO:   <<< freeze_layer_num: 0
+2022-12-21 10:50:14,541:INFO:   <<< hard_negative_rate: 0.5
+2022-12-21 10:50:14,541:INFO:   <<< local_rank: 0
+2022-12-21 10:50:14,541:INFO:   <<< loose_type: False
+2022-12-21 10:50:14,541:INFO:   <<< lr: 0.0001
+2022-12-21 10:50:14,541:INFO:   <<< lr_decay: 0.9
+2022-12-21 10:50:14,541:INFO:   <<< margin: 0.1
+2022-12-21 10:50:14,541:INFO:   <<< max_frames: 100
+2022-12-21 10:50:14,541:INFO:   <<< max_words: 20
+2022-12-21 10:50:14,541:INFO:   <<< n_display: 100
+2022-12-21 10:50:14,542:INFO:   <<< n_gpu: 1
+2022-12-21 10:50:14,542:INFO:   <<< n_pair: 1
+2022-12-21 10:50:14,542:INFO:   <<< negative_weighting: 1
+2022-12-21 10:50:14,542:INFO:   <<< num_thread_reader: 1
+2022-12-21 10:50:14,542:INFO:   <<< output_dir: output
+2022-12-21 10:50:14,542:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-21 10:50:14,542:INFO:   <<< rank: 1
+2022-12-21 10:50:14,542:INFO:   <<< seed: 42
+2022-12-21 10:50:14,542:INFO:   <<< train_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-21 10:50:14,542:INFO:   <<< val_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-21 10:50:14,542:INFO:   <<< video_dim: 1024
+2022-12-21 10:50:14,542:INFO:   <<< world_size: 20
+2022-12-21 10:50:14,542:INFO: device: cuda:0 n_gpu: 1
+2022-12-21 10:50:19,087:INFO: ***** Running test *****
+2022-12-21 10:50:19,087:INFO:   Num examples = 7010
+2022-12-21 10:50:19,087:INFO:   Batch size = 64
+2022-12-21 10:50:19,087:INFO:   Num steps = 110
+2022-12-21 10:50:19,087:INFO: ***** Running val *****
+2022-12-21 10:50:19,087:INFO:   Num examples = 7010
+2022-12-21 10:52:13,046:INFO: Effective parameters:
+2022-12-21 10:52:13,046:INFO:   <<< batch_size: 256
+2022-12-21 10:52:13,046:INFO:   <<< batch_size_val: 64
+2022-12-21 10:52:13,046:INFO:   <<< coef_lr: 1.0
+2022-12-21 10:52:13,046:INFO:   <<< data_path: data/caption.pickle
+2022-12-21 10:52:13,046:INFO:   <<< do_eval: True
+2022-12-21 10:52:13,046:INFO:   <<< do_pretrain: False
+2022-12-21 10:52:13,046:INFO:   <<< do_train: False
+2022-12-21 10:52:13,046:INFO:   <<< epochs: 20
+2022-12-21 10:52:13,046:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-21 10:52:13,046:INFO:   <<< feature_framerate: 1
+2022-12-21 10:52:13,046:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-21 10:52:13,046:INFO:   <<< freeze_layer_num: 0
+2022-12-21 10:52:13,046:INFO:   <<< hard_negative_rate: 0.5
+2022-12-21 10:52:13,046:INFO:   <<< local_rank: 0
+2022-12-21 10:52:13,047:INFO:   <<< loose_type: False
+2022-12-21 10:52:13,047:INFO:   <<< lr: 0.0001
+2022-12-21 10:52:13,047:INFO:   <<< lr_decay: 0.9
+2022-12-21 10:52:13,047:INFO:   <<< margin: 0.1
+2022-12-21 10:52:13,047:INFO:   <<< max_frames: 100
+2022-12-21 10:52:13,047:INFO:   <<< max_words: 20
+2022-12-21 10:52:13,047:INFO:   <<< n_display: 100
+2022-12-21 10:52:13,047:INFO:   <<< n_gpu: 1
+2022-12-21 10:52:13,047:INFO:   <<< n_pair: 1
+2022-12-21 10:52:13,047:INFO:   <<< negative_weighting: 1
+2022-12-21 10:52:13,047:INFO:   <<< num_thread_reader: 1
+2022-12-21 10:52:13,047:INFO:   <<< output_dir: output
+2022-12-21 10:52:13,047:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-21 10:52:13,047:INFO:   <<< rank: 1
+2022-12-21 10:52:13,047:INFO:   <<< seed: 42
+2022-12-21 10:52:13,047:INFO:   <<< train_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-21 10:52:13,047:INFO:   <<< val_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-21 10:52:13,048:INFO:   <<< video_dim: 1024
+2022-12-21 10:52:13,048:INFO:   <<< world_size: 20
+2022-12-21 10:52:13,048:INFO: device: cuda:0 n_gpu: 1
+2022-12-21 10:52:17,675:INFO: ***** Running test *****
+2022-12-21 10:52:17,675:INFO:   Num examples = 7010
+2022-12-21 10:52:17,675:INFO:   Batch size = 64
+2022-12-21 10:52:17,675:INFO:   Num steps = 110
+2022-12-21 10:52:17,675:INFO: ***** Running val *****
+2022-12-21 10:52:17,675:INFO:   Num examples = 7010
+2022-12-21 10:56:20,045:INFO: Effective parameters:
+2022-12-21 10:56:20,045:INFO:   <<< batch_size: 256
+2022-12-21 10:56:20,045:INFO:   <<< batch_size_val: 64
+2022-12-21 10:56:20,045:INFO:   <<< coef_lr: 1.0
+2022-12-21 10:56:20,045:INFO:   <<< data_path: data/caption.pickle
+2022-12-21 10:56:20,045:INFO:   <<< do_eval: True
+2022-12-21 10:56:20,045:INFO:   <<< do_pretrain: False
+2022-12-21 10:56:20,045:INFO:   <<< do_train: False
+2022-12-21 10:56:20,045:INFO:   <<< epochs: 20
+2022-12-21 10:56:20,045:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-21 10:56:20,045:INFO:   <<< feature_framerate: 1
+2022-12-21 10:56:20,045:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-21 10:56:20,045:INFO:   <<< freeze_layer_num: 0
+2022-12-21 10:56:20,045:INFO:   <<< hard_negative_rate: 0.5
+2022-12-21 10:56:20,046:INFO:   <<< local_rank: 0
+2022-12-21 10:56:20,046:INFO:   <<< loose_type: False
+2022-12-21 10:56:20,046:INFO:   <<< lr: 0.0001
+2022-12-21 10:56:20,046:INFO:   <<< lr_decay: 0.9
+2022-12-21 10:56:20,046:INFO:   <<< margin: 0.1
+2022-12-21 10:56:20,046:INFO:   <<< max_frames: 100
+2022-12-21 10:56:20,046:INFO:   <<< max_words: 20
+2022-12-21 10:56:20,046:INFO:   <<< n_display: 100
+2022-12-21 10:56:20,046:INFO:   <<< n_gpu: 1
+2022-12-21 10:56:20,046:INFO:   <<< n_pair: 1
+2022-12-21 10:56:20,046:INFO:   <<< negative_weighting: 1
+2022-12-21 10:56:20,046:INFO:   <<< num_thread_reader: 1
+2022-12-21 10:56:20,046:INFO:   <<< output_dir: output
+2022-12-21 10:56:20,046:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-21 10:56:20,046:INFO:   <<< rank: 1
+2022-12-21 10:56:20,046:INFO:   <<< seed: 42
+2022-12-21 10:56:20,046:INFO:   <<< train_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-21 10:56:20,046:INFO:   <<< val_csv: msrvtt_data/MSRVTT_train.7k.csv
+2022-12-21 10:56:20,046:INFO:   <<< video_dim: 1024
+2022-12-21 10:56:20,046:INFO:   <<< world_size: 20
+2022-12-21 10:56:20,046:INFO: device: cuda:0 n_gpu: 1
+2022-12-21 10:56:24,827:INFO: ***** Running test *****
+2022-12-21 10:56:24,827:INFO:   Num examples = 7010
+2022-12-21 10:56:24,827:INFO:   Batch size = 64
+2022-12-21 10:56:24,827:INFO:   Num steps = 110
+2022-12-21 10:56:24,827:INFO: ***** Running val *****
+2022-12-21 10:56:24,827:INFO:   Num examples = 7010
+2022-12-21 11:02:55,495:INFO: Effective parameters:
+2022-12-21 11:02:55,495:INFO:   <<< batch_size: 256
+2022-12-21 11:02:55,495:INFO:   <<< batch_size_val: 64
+2022-12-21 11:02:55,495:INFO:   <<< coef_lr: 1.0
+2022-12-21 11:02:55,495:INFO:   <<< data_path: data/caption.pickle
+2022-12-21 11:02:55,495:INFO:   <<< do_eval: True
+2022-12-21 11:02:55,495:INFO:   <<< do_pretrain: False
+2022-12-21 11:02:55,495:INFO:   <<< do_train: False
+2022-12-21 11:02:55,496:INFO:   <<< epochs: 20
+2022-12-21 11:02:55,496:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-21 11:02:55,496:INFO:   <<< feature_framerate: 1
+2022-12-21 11:02:55,496:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-21 11:02:55,496:INFO:   <<< freeze_layer_num: 0
+2022-12-21 11:02:55,496:INFO:   <<< hard_negative_rate: 0.5
+2022-12-21 11:02:55,496:INFO:   <<< local_rank: 0
+2022-12-21 11:02:55,496:INFO:   <<< loose_type: False
+2022-12-21 11:02:55,496:INFO:   <<< lr: 0.0001
+2022-12-21 11:02:55,496:INFO:   <<< lr_decay: 0.9
+2022-12-21 11:02:55,496:INFO:   <<< margin: 0.1
+2022-12-21 11:02:55,496:INFO:   <<< max_frames: 100
+2022-12-21 11:02:55,496:INFO:   <<< max_words: 20
+2022-12-21 11:02:55,496:INFO:   <<< n_display: 100
+2022-12-21 11:02:55,496:INFO:   <<< n_gpu: 1
+2022-12-21 11:02:55,496:INFO:   <<< n_pair: 1
+2022-12-21 11:02:55,496:INFO:   <<< negative_weighting: 1
+2022-12-21 11:02:55,496:INFO:   <<< num_thread_reader: 1
+2022-12-21 11:02:55,496:INFO:   <<< output_dir: output
+2022-12-21 11:02:55,496:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-21 11:02:55,496:INFO:   <<< rank: 1
+2022-12-21 11:02:55,496:INFO:   <<< seed: 42
+2022-12-21 11:02:55,496:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test
+2022-12-21 11:02:55,496:INFO:   <<< val_csv: msrvtt_data/MSRVTT_JSFUSION_test
+2022-12-21 11:02:55,496:INFO:   <<< video_dim: 1024
+2022-12-21 11:02:55,496:INFO:   <<< world_size: 20
+2022-12-21 11:02:55,496:INFO: device: cuda:0 n_gpu: 1
+2022-12-21 11:03:34,154:INFO: Effective parameters:
+2022-12-21 11:03:34,154:INFO:   <<< batch_size: 256
+2022-12-21 11:03:34,154:INFO:   <<< batch_size_val: 64
+2022-12-21 11:03:34,154:INFO:   <<< coef_lr: 1.0
+2022-12-21 11:03:34,154:INFO:   <<< data_path: data/caption.pickle
+2022-12-21 11:03:34,154:INFO:   <<< do_eval: True
+2022-12-21 11:03:34,154:INFO:   <<< do_pretrain: False
+2022-12-21 11:03:34,154:INFO:   <<< do_train: False
+2022-12-21 11:03:34,154:INFO:   <<< epochs: 20
+2022-12-21 11:03:34,154:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-21 11:03:34,154:INFO:   <<< feature_framerate: 1
+2022-12-21 11:03:34,154:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-21 11:03:34,154:INFO:   <<< freeze_layer_num: 0
+2022-12-21 11:03:34,154:INFO:   <<< hard_negative_rate: 0.5
+2022-12-21 11:03:34,154:INFO:   <<< local_rank: 0
+2022-12-21 11:03:34,154:INFO:   <<< loose_type: False
+2022-12-21 11:03:34,154:INFO:   <<< lr: 0.0001
+2022-12-21 11:03:34,154:INFO:   <<< lr_decay: 0.9
+2022-12-21 11:03:34,155:INFO:   <<< margin: 0.1
+2022-12-21 11:03:34,155:INFO:   <<< max_frames: 100
+2022-12-21 11:03:34,155:INFO:   <<< max_words: 20
+2022-12-21 11:03:34,155:INFO:   <<< n_display: 100
+2022-12-21 11:03:34,155:INFO:   <<< n_gpu: 1
+2022-12-21 11:03:34,155:INFO:   <<< n_pair: 1
+2022-12-21 11:03:34,155:INFO:   <<< negative_weighting: 1
+2022-12-21 11:03:34,155:INFO:   <<< num_thread_reader: 1
+2022-12-21 11:03:34,155:INFO:   <<< output_dir: output
+2022-12-21 11:03:34,155:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-21 11:03:34,155:INFO:   <<< rank: 1
+2022-12-21 11:03:34,155:INFO:   <<< seed: 42
+2022-12-21 11:03:34,155:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-21 11:03:34,155:INFO:   <<< val_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-21 11:03:34,155:INFO:   <<< video_dim: 1024
+2022-12-21 11:03:34,155:INFO:   <<< world_size: 20
+2022-12-21 11:03:34,155:INFO: device: cuda:0 n_gpu: 1
+2022-12-21 11:03:38,854:INFO: ***** Running test *****
+2022-12-21 11:03:38,854:INFO:   Num examples = 1000
+2022-12-21 11:03:38,854:INFO:   Batch size = 64
+2022-12-21 11:03:38,854:INFO:   Num steps = 16
+2022-12-21 11:03:38,854:INFO: ***** Running val *****
+2022-12-21 11:03:38,855:INFO:   Num examples = 1000
+2022-12-21 11:21:36,418:INFO: Effective parameters:
+2022-12-21 11:21:36,419:INFO:   <<< batch_size: 256
+2022-12-21 11:21:36,419:INFO:   <<< batch_size_val: 64
+2022-12-21 11:21:36,419:INFO:   <<< coef_lr: 1.0
+2022-12-21 11:21:36,419:INFO:   <<< data_path: data/caption.pickle
+2022-12-21 11:21:36,419:INFO:   <<< do_eval: True
+2022-12-21 11:21:36,419:INFO:   <<< do_pretrain: False
+2022-12-21 11:21:36,419:INFO:   <<< do_train: False
+2022-12-21 11:21:36,419:INFO:   <<< epochs: 20
+2022-12-21 11:21:36,419:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-21 11:21:36,419:INFO:   <<< feature_framerate: 1
+2022-12-21 11:21:36,419:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-21 11:21:36,419:INFO:   <<< freeze_layer_num: 0
+2022-12-21 11:21:36,419:INFO:   <<< hard_negative_rate: 0.5
+2022-12-21 11:21:36,419:INFO:   <<< local_rank: 0
+2022-12-21 11:21:36,419:INFO:   <<< loose_type: False
+2022-12-21 11:21:36,419:INFO:   <<< lr: 0.0001
+2022-12-21 11:21:36,419:INFO:   <<< lr_decay: 0.9
+2022-12-21 11:21:36,419:INFO:   <<< margin: 0.1
+2022-12-21 11:21:36,419:INFO:   <<< max_frames: 100
+2022-12-21 11:21:36,419:INFO:   <<< max_words: 20
+2022-12-21 11:21:36,419:INFO:   <<< n_display: 100
+2022-12-21 11:21:36,419:INFO:   <<< n_gpu: 1
+2022-12-21 11:21:36,419:INFO:   <<< n_pair: 1
+2022-12-21 11:21:36,420:INFO:   <<< negative_weighting: 1
+2022-12-21 11:21:36,420:INFO:   <<< num_thread_reader: 1
+2022-12-21 11:21:36,420:INFO:   <<< output_dir: output
+2022-12-21 11:21:36,420:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-21 11:21:36,420:INFO:   <<< rank: 1
+2022-12-21 11:21:36,420:INFO:   <<< seed: 42
+2022-12-21 11:21:36,420:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-21 11:21:36,420:INFO:   <<< val_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-21 11:21:36,420:INFO:   <<< video_dim: 1024
+2022-12-21 11:21:36,420:INFO:   <<< world_size: 20
+2022-12-21 11:21:36,420:INFO: device: cuda:0 n_gpu: 1
+2022-12-21 11:21:41,444:INFO: ***** Running test *****
+2022-12-21 11:21:41,445:INFO:   Num examples = 1000
+2022-12-21 11:21:41,445:INFO:   Batch size = 64
+2022-12-21 11:21:41,445:INFO:   Num steps = 16
+2022-12-21 11:21:41,445:INFO: ***** Running val *****
+2022-12-21 11:21:41,445:INFO:   Num examples = 1000
+2022-12-21 11:24:51,798:INFO: Effective parameters:
+2022-12-21 11:24:51,798:INFO:   <<< batch_size: 256
+2022-12-21 11:24:51,798:INFO:   <<< batch_size_val: 64
+2022-12-21 11:24:51,798:INFO:   <<< coef_lr: 1.0
+2022-12-21 11:24:51,798:INFO:   <<< data_path: data/caption.pickle
+2022-12-21 11:24:51,798:INFO:   <<< do_eval: True
+2022-12-21 11:24:51,798:INFO:   <<< do_pretrain: False
+2022-12-21 11:24:51,798:INFO:   <<< do_train: False
+2022-12-21 11:24:51,798:INFO:   <<< epochs: 20
+2022-12-21 11:24:51,798:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-21 11:24:51,798:INFO:   <<< feature_framerate: 1
+2022-12-21 11:24:51,798:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-21 11:24:51,798:INFO:   <<< freeze_layer_num: 0
+2022-12-21 11:24:51,798:INFO:   <<< hard_negative_rate: 0.5
+2022-12-21 11:24:51,799:INFO:   <<< local_rank: 0
+2022-12-21 11:24:51,799:INFO:   <<< loose_type: False
+2022-12-21 11:24:51,799:INFO:   <<< lr: 0.0001
+2022-12-21 11:24:51,799:INFO:   <<< lr_decay: 0.9
+2022-12-21 11:24:51,799:INFO:   <<< margin: 0.1
+2022-12-21 11:24:51,799:INFO:   <<< max_frames: 100
+2022-12-21 11:24:51,799:INFO:   <<< max_words: 20
+2022-12-21 11:24:51,799:INFO:   <<< n_display: 100
+2022-12-21 11:24:51,799:INFO:   <<< n_gpu: 1
+2022-12-21 11:24:51,799:INFO:   <<< n_pair: 1
+2022-12-21 11:24:51,799:INFO:   <<< negative_weighting: 1
+2022-12-21 11:24:51,799:INFO:   <<< num_thread_reader: 1
+2022-12-21 11:24:51,799:INFO:   <<< output_dir: output
+2022-12-21 11:24:51,799:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-21 11:24:51,799:INFO:   <<< rank: 1
+2022-12-21 11:24:51,799:INFO:   <<< seed: 42
+2022-12-21 11:24:51,799:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-21 11:24:51,799:INFO:   <<< val_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-21 11:24:51,799:INFO:   <<< video_dim: 1024
+2022-12-21 11:24:51,799:INFO:   <<< world_size: 20
+2022-12-21 11:24:51,799:INFO: device: cuda:0 n_gpu: 1
+2022-12-21 11:24:56,642:INFO: ***** Running test *****
+2022-12-21 11:24:56,642:INFO:   Num examples = 1000
+2022-12-21 11:24:56,642:INFO:   Batch size = 64
+2022-12-21 11:24:56,642:INFO:   Num steps = 16
+2022-12-21 11:24:56,642:INFO: ***** Running val *****
+2022-12-21 11:24:56,642:INFO:   Num examples = 1000
+2022-12-21 11:27:07,612:INFO: Effective parameters:
+2022-12-21 11:27:07,612:INFO:   <<< batch_size: 256
+2022-12-21 11:27:07,612:INFO:   <<< batch_size_val: 64
+2022-12-21 11:27:07,612:INFO:   <<< coef_lr: 1.0
+2022-12-21 11:27:07,612:INFO:   <<< data_path: data/caption.pickle
+2022-12-21 11:27:07,612:INFO:   <<< do_eval: True
+2022-12-21 11:27:07,612:INFO:   <<< do_pretrain: False
+2022-12-21 11:27:07,612:INFO:   <<< do_train: False
+2022-12-21 11:27:07,612:INFO:   <<< epochs: 20
+2022-12-21 11:27:07,613:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-21 11:27:07,613:INFO:   <<< feature_framerate: 1
+2022-12-21 11:27:07,613:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-21 11:27:07,613:INFO:   <<< freeze_layer_num: 0
+2022-12-21 11:27:07,613:INFO:   <<< hard_negative_rate: 0.5
+2022-12-21 11:27:07,613:INFO:   <<< local_rank: 0
+2022-12-21 11:27:07,613:INFO:   <<< loose_type: False
+2022-12-21 11:27:07,613:INFO:   <<< lr: 0.0001
+2022-12-21 11:27:07,613:INFO:   <<< lr_decay: 0.9
+2022-12-21 11:27:07,613:INFO:   <<< margin: 0.1
+2022-12-21 11:27:07,613:INFO:   <<< max_frames: 100
+2022-12-21 11:27:07,613:INFO:   <<< max_words: 20
+2022-12-21 11:27:07,613:INFO:   <<< n_display: 100
+2022-12-21 11:27:07,613:INFO:   <<< n_gpu: 1
+2022-12-21 11:27:07,613:INFO:   <<< n_pair: 1
+2022-12-21 11:27:07,613:INFO:   <<< negative_weighting: 1
+2022-12-21 11:27:07,613:INFO:   <<< num_thread_reader: 1
+2022-12-21 11:27:07,613:INFO:   <<< output_dir: output
+2022-12-21 11:27:07,613:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-21 11:27:07,613:INFO:   <<< rank: 1
+2022-12-21 11:27:07,614:INFO:   <<< seed: 42
+2022-12-21 11:27:07,614:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-21 11:27:07,614:INFO:   <<< val_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-21 11:27:07,614:INFO:   <<< video_dim: 1024
+2022-12-21 11:27:07,614:INFO:   <<< world_size: 20
+2022-12-21 11:27:07,614:INFO: device: cuda:0 n_gpu: 1
+2022-12-21 11:27:12,622:INFO: ***** Running test *****
+2022-12-21 11:27:12,623:INFO:   Num examples = 1000
+2022-12-21 11:27:12,623:INFO:   Batch size = 64
+2022-12-21 11:27:12,623:INFO:   Num steps = 16
+2022-12-21 11:27:12,623:INFO: ***** Running val *****
+2022-12-21 11:27:12,623:INFO:   Num examples = 1000
+2022-12-21 11:32:39,260:INFO: Effective parameters:
+2022-12-21 11:32:39,260:INFO:   <<< batch_size: 256
+2022-12-21 11:32:39,260:INFO:   <<< batch_size_val: 64
+2022-12-21 11:32:39,260:INFO:   <<< coef_lr: 1.0
+2022-12-21 11:32:39,260:INFO:   <<< data_path: data/caption.pickle
+2022-12-21 11:32:39,260:INFO:   <<< do_eval: True
+2022-12-21 11:32:39,260:INFO:   <<< do_pretrain: False
+2022-12-21 11:32:39,260:INFO:   <<< do_train: False
+2022-12-21 11:32:39,260:INFO:   <<< epochs: 20
+2022-12-21 11:32:39,260:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-21 11:32:39,260:INFO:   <<< feature_framerate: 1
+2022-12-21 11:32:39,260:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-21 11:32:39,260:INFO:   <<< freeze_layer_num: 0
+2022-12-21 11:32:39,260:INFO:   <<< hard_negative_rate: 0.5
+2022-12-21 11:32:39,260:INFO:   <<< local_rank: 0
+2022-12-21 11:32:39,260:INFO:   <<< loose_type: False
+2022-12-21 11:32:39,260:INFO:   <<< lr: 0.0001
+2022-12-21 11:32:39,260:INFO:   <<< lr_decay: 0.9
+2022-12-21 11:32:39,260:INFO:   <<< margin: 0.1
+2022-12-21 11:32:39,260:INFO:   <<< max_frames: 100
+2022-12-21 11:32:39,260:INFO:   <<< max_words: 20
+2022-12-21 11:32:39,260:INFO:   <<< n_display: 100
+2022-12-21 11:32:39,261:INFO:   <<< n_gpu: 1
+2022-12-21 11:32:39,261:INFO:   <<< n_pair: 1
+2022-12-21 11:32:39,261:INFO:   <<< negative_weighting: 1
+2022-12-21 11:32:39,261:INFO:   <<< num_thread_reader: 1
+2022-12-21 11:32:39,261:INFO:   <<< output_dir: output
+2022-12-21 11:32:39,261:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-21 11:32:39,261:INFO:   <<< rank: 1
+2022-12-21 11:32:39,261:INFO:   <<< seed: 42
+2022-12-21 11:32:39,261:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-21 11:32:39,261:INFO:   <<< val_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-21 11:32:39,261:INFO:   <<< video_dim: 1024
+2022-12-21 11:32:39,261:INFO:   <<< world_size: 20
+2022-12-21 11:32:39,261:INFO: device: cuda:0 n_gpu: 1
+2022-12-21 11:32:44,529:INFO: ***** Running test *****
+2022-12-21 11:32:44,529:INFO:   Num examples = 1000
+2022-12-21 11:32:44,529:INFO:   Batch size = 64
+2022-12-21 11:32:44,529:INFO:   Num steps = 16
+2022-12-21 11:32:44,529:INFO: ***** Running val *****
+2022-12-21 11:32:44,529:INFO:   Num examples = 1000
+2022-12-21 11:33:00,171:INFO: Effective parameters:
+2022-12-21 11:33:00,171:INFO:   <<< batch_size: 256
+2022-12-21 11:33:00,171:INFO:   <<< batch_size_val: 64
+2022-12-21 11:33:00,171:INFO:   <<< coef_lr: 1.0
+2022-12-21 11:33:00,172:INFO:   <<< data_path: data/caption.pickle
+2022-12-21 11:33:00,172:INFO:   <<< do_eval: True
+2022-12-21 11:33:00,172:INFO:   <<< do_pretrain: False
+2022-12-21 11:33:00,172:INFO:   <<< do_train: False
+2022-12-21 11:33:00,172:INFO:   <<< epochs: 20
+2022-12-21 11:33:00,172:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-21 11:33:00,172:INFO:   <<< feature_framerate: 1
+2022-12-21 11:33:00,172:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-21 11:33:00,172:INFO:   <<< freeze_layer_num: 0
+2022-12-21 11:33:00,172:INFO:   <<< hard_negative_rate: 0.5
+2022-12-21 11:33:00,172:INFO:   <<< local_rank: 0
+2022-12-21 11:33:00,172:INFO:   <<< loose_type: False
+2022-12-21 11:33:00,172:INFO:   <<< lr: 0.0001
+2022-12-21 11:33:00,172:INFO:   <<< lr_decay: 0.9
+2022-12-21 11:33:00,172:INFO:   <<< margin: 0.1
+2022-12-21 11:33:00,172:INFO:   <<< max_frames: 100
+2022-12-21 11:33:00,172:INFO:   <<< max_words: 20
+2022-12-21 11:33:00,172:INFO:   <<< n_display: 100
+2022-12-21 11:33:00,172:INFO:   <<< n_gpu: 1
+2022-12-21 11:33:00,173:INFO:   <<< n_pair: 1
+2022-12-21 11:33:00,173:INFO:   <<< negative_weighting: 1
+2022-12-21 11:33:00,173:INFO:   <<< num_thread_reader: 1
+2022-12-21 11:33:00,173:INFO:   <<< output_dir: output
+2022-12-21 11:33:00,173:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-21 11:33:00,173:INFO:   <<< rank: 1
+2022-12-21 11:33:00,173:INFO:   <<< seed: 42
+2022-12-21 11:33:00,173:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-21 11:33:00,173:INFO:   <<< val_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-21 11:33:00,173:INFO:   <<< video_dim: 1024
+2022-12-21 11:33:00,173:INFO:   <<< world_size: 20
+2022-12-21 11:33:00,173:INFO: device: cuda:0 n_gpu: 1
+2022-12-21 11:33:04,983:INFO: ***** Running test *****
+2022-12-21 11:33:04,984:INFO:   Num examples = 1000
+2022-12-21 11:33:04,984:INFO:   Batch size = 64
+2022-12-21 11:33:04,984:INFO:   Num steps = 16
+2022-12-21 11:33:04,984:INFO: ***** Running val *****
+2022-12-21 11:33:04,984:INFO:   Num examples = 1000
+2022-12-22 09:58:01,129:INFO: Effective parameters:
+2022-12-22 09:58:01,129:INFO:   <<< batch_size: 256
+2022-12-22 09:58:01,129:INFO:   <<< batch_size_val: 64
+2022-12-22 09:58:01,129:INFO:   <<< coef_lr: 1.0
+2022-12-22 09:58:01,129:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 09:58:01,129:INFO:   <<< do_eval: True
+2022-12-22 09:58:01,129:INFO:   <<< do_pretrain: False
+2022-12-22 09:58:01,129:INFO:   <<< do_train: False
+2022-12-22 09:58:01,129:INFO:   <<< epochs: 20
+2022-12-22 09:58:01,129:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 09:58:01,129:INFO:   <<< feature_framerate: 1
+2022-12-22 09:58:01,129:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 09:58:01,130:INFO:   <<< freeze_layer_num: 0
+2022-12-22 09:58:01,130:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 09:58:01,130:INFO:   <<< local_rank: 0
+2022-12-22 09:58:01,130:INFO:   <<< loose_type: False
+2022-12-22 09:58:01,130:INFO:   <<< lr: 0.0001
+2022-12-22 09:58:01,130:INFO:   <<< lr_decay: 0.9
+2022-12-22 09:58:01,130:INFO:   <<< margin: 0.1
+2022-12-22 09:58:01,130:INFO:   <<< max_frames: 100
+2022-12-22 09:58:01,130:INFO:   <<< max_words: 20
+2022-12-22 09:58:01,130:INFO:   <<< n_display: 100
+2022-12-22 09:58:01,130:INFO:   <<< n_gpu: 1
+2022-12-22 09:58:01,130:INFO:   <<< n_pair: 1
+2022-12-22 09:58:01,130:INFO:   <<< negative_weighting: 1
+2022-12-22 09:58:01,130:INFO:   <<< num_thread_reader: 1
+2022-12-22 09:58:01,130:INFO:   <<< output_dir: output
+2022-12-22 09:58:01,130:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 09:58:01,130:INFO:   <<< rank: 1
+2022-12-22 09:58:01,130:INFO:   <<< seed: 42
+2022-12-22 09:58:01,130:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 09:58:01,130:INFO:   <<< val_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 09:58:01,130:INFO:   <<< video_dim: 1024
+2022-12-22 09:58:01,130:INFO:   <<< world_size: 20
+2022-12-22 09:58:01,131:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 09:58:07,845:INFO: ***** Running test *****
+2022-12-22 09:58:07,846:INFO:   Num examples = 1000
+2022-12-22 09:58:07,846:INFO:   Batch size = 64
+2022-12-22 09:58:07,846:INFO:   Num steps = 16
+2022-12-22 09:58:07,846:INFO: ***** Running val *****
+2022-12-22 09:58:07,846:INFO:   Num examples = 1000
+2022-12-22 10:12:05,867:INFO: Effective parameters:
+2022-12-22 10:12:05,867:INFO:   <<< batch_size: 256
+2022-12-22 10:12:05,867:INFO:   <<< batch_size_val: 64
+2022-12-22 10:12:05,867:INFO:   <<< coef_lr: 1.0
+2022-12-22 10:12:05,867:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 10:12:05,867:INFO:   <<< do_eval: True
+2022-12-22 10:12:05,867:INFO:   <<< do_pretrain: False
+2022-12-22 10:12:05,867:INFO:   <<< do_train: False
+2022-12-22 10:12:05,867:INFO:   <<< epochs: 20
+2022-12-22 10:12:05,867:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 10:12:05,867:INFO:   <<< feature_framerate: 1
+2022-12-22 10:12:05,867:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 10:12:05,868:INFO:   <<< freeze_layer_num: 0
+2022-12-22 10:12:05,868:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 10:12:05,868:INFO:   <<< local_rank: 0
+2022-12-22 10:12:05,868:INFO:   <<< loose_type: False
+2022-12-22 10:12:05,868:INFO:   <<< lr: 0.0001
+2022-12-22 10:12:05,868:INFO:   <<< lr_decay: 0.9
+2022-12-22 10:12:05,868:INFO:   <<< margin: 0.1
+2022-12-22 10:12:05,868:INFO:   <<< max_frames: 100
+2022-12-22 10:12:05,868:INFO:   <<< max_words: 20
+2022-12-22 10:12:05,868:INFO:   <<< n_display: 100
+2022-12-22 10:12:05,868:INFO:   <<< n_gpu: 1
+2022-12-22 10:12:05,868:INFO:   <<< n_pair: 1
+2022-12-22 10:12:05,868:INFO:   <<< negative_weighting: 1
+2022-12-22 10:12:05,868:INFO:   <<< num_thread_reader: 1
+2022-12-22 10:12:05,868:INFO:   <<< output_dir: output
+2022-12-22 10:12:05,868:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 10:12:05,868:INFO:   <<< rank: 1
+2022-12-22 10:12:05,868:INFO:   <<< seed: 42
+2022-12-22 10:12:05,868:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 10:12:05,868:INFO:   <<< val_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 10:12:05,868:INFO:   <<< video_dim: 1024
+2022-12-22 10:12:05,868:INFO:   <<< world_size: 20
+2022-12-22 10:12:05,868:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 10:12:11,819:INFO: ***** Running test *****
+2022-12-22 10:12:11,819:INFO:   Num examples = 1000
+2022-12-22 10:12:11,819:INFO:   Batch size = 64
+2022-12-22 10:12:11,819:INFO:   Num steps = 16
+2022-12-22 10:12:11,819:INFO: ***** Running val *****
+2022-12-22 10:12:11,819:INFO:   Num examples = 1000
+2022-12-22 10:16:52,161:INFO: Effective parameters:
+2022-12-22 10:16:52,161:INFO:   <<< batch_size: 256
+2022-12-22 10:16:52,161:INFO:   <<< batch_size_val: 64
+2022-12-22 10:16:52,161:INFO:   <<< coef_lr: 1.0
+2022-12-22 10:16:52,161:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 10:16:52,161:INFO:   <<< do_eval: True
+2022-12-22 10:16:52,161:INFO:   <<< do_pretrain: False
+2022-12-22 10:16:52,161:INFO:   <<< do_train: False
+2022-12-22 10:16:52,161:INFO:   <<< epochs: 20
+2022-12-22 10:16:52,161:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 10:16:52,161:INFO:   <<< feature_framerate: 1
+2022-12-22 10:16:52,161:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 10:16:52,161:INFO:   <<< freeze_layer_num: 0
+2022-12-22 10:16:52,161:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 10:16:52,161:INFO:   <<< local_rank: 0
+2022-12-22 10:16:52,161:INFO:   <<< loose_type: False
+2022-12-22 10:16:52,161:INFO:   <<< lr: 0.0001
+2022-12-22 10:16:52,161:INFO:   <<< lr_decay: 0.9
+2022-12-22 10:16:52,161:INFO:   <<< margin: 0.1
+2022-12-22 10:16:52,161:INFO:   <<< max_frames: 100
+2022-12-22 10:16:52,161:INFO:   <<< max_words: 20
+2022-12-22 10:16:52,161:INFO:   <<< n_display: 100
+2022-12-22 10:16:52,161:INFO:   <<< n_gpu: 1
+2022-12-22 10:16:52,162:INFO:   <<< n_pair: 1
+2022-12-22 10:16:52,162:INFO:   <<< negative_weighting: 1
+2022-12-22 10:16:52,162:INFO:   <<< num_thread_reader: 1
+2022-12-22 10:16:52,162:INFO:   <<< output_dir: output
+2022-12-22 10:16:52,162:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 10:16:52,162:INFO:   <<< rank: 1
+2022-12-22 10:16:52,162:INFO:   <<< seed: 42
+2022-12-22 10:16:52,162:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 10:16:52,162:INFO:   <<< val_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 10:16:52,162:INFO:   <<< video_dim: 1024
+2022-12-22 10:16:52,162:INFO:   <<< world_size: 20
+2022-12-22 10:16:52,162:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 10:16:57,232:INFO: ***** Running test *****
+2022-12-22 10:16:57,232:INFO:   Num examples = 1000
+2022-12-22 10:16:57,232:INFO:   Batch size = 64
+2022-12-22 10:16:57,232:INFO:   Num steps = 16
+2022-12-22 10:16:57,232:INFO: ***** Running val *****
+2022-12-22 10:16:57,232:INFO:   Num examples = 1000
+2022-12-22 10:19:29,975:INFO: Effective parameters:
+2022-12-22 10:19:29,975:INFO:   <<< batch_size: 256
+2022-12-22 10:19:29,975:INFO:   <<< batch_size_val: 64
+2022-12-22 10:19:29,975:INFO:   <<< coef_lr: 1.0
+2022-12-22 10:19:29,975:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 10:19:29,975:INFO:   <<< do_eval: True
+2022-12-22 10:19:29,975:INFO:   <<< do_pretrain: False
+2022-12-22 10:19:29,975:INFO:   <<< do_train: False
+2022-12-22 10:19:29,975:INFO:   <<< epochs: 20
+2022-12-22 10:19:29,976:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 10:19:29,976:INFO:   <<< feature_framerate: 1
+2022-12-22 10:19:29,976:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 10:19:29,976:INFO:   <<< freeze_layer_num: 0
+2022-12-22 10:19:29,976:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 10:19:29,976:INFO:   <<< local_rank: 0
+2022-12-22 10:19:29,976:INFO:   <<< loose_type: False
+2022-12-22 10:19:29,976:INFO:   <<< lr: 0.0001
+2022-12-22 10:19:29,976:INFO:   <<< lr_decay: 0.9
+2022-12-22 10:19:29,976:INFO:   <<< margin: 0.1
+2022-12-22 10:19:29,976:INFO:   <<< max_frames: 100
+2022-12-22 10:19:29,976:INFO:   <<< max_words: 20
+2022-12-22 10:19:29,976:INFO:   <<< n_display: 100
+2022-12-22 10:19:29,976:INFO:   <<< n_gpu: 1
+2022-12-22 10:19:29,976:INFO:   <<< n_pair: 1
+2022-12-22 10:19:29,976:INFO:   <<< negative_weighting: 1
+2022-12-22 10:19:29,976:INFO:   <<< num_thread_reader: 1
+2022-12-22 10:19:29,976:INFO:   <<< output_dir: output
+2022-12-22 10:19:29,976:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 10:19:29,976:INFO:   <<< rank: 1
+2022-12-22 10:19:29,976:INFO:   <<< seed: 42
+2022-12-22 10:19:29,976:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 10:19:29,976:INFO:   <<< val_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 10:19:29,977:INFO:   <<< video_dim: 1024
+2022-12-22 10:19:29,977:INFO:   <<< world_size: 20
+2022-12-22 10:19:29,977:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 10:19:37,023:INFO: ***** Running test *****
+2022-12-22 10:19:37,024:INFO:   Num examples = 1000
+2022-12-22 10:19:37,024:INFO:   Batch size = 64
+2022-12-22 10:19:37,024:INFO:   Num steps = 16
+2022-12-22 10:19:37,024:INFO: ***** Running val *****
+2022-12-22 10:19:37,024:INFO:   Num examples = 1000
+2022-12-22 10:42:25,549:INFO: Effective parameters:
+2022-12-22 10:42:25,549:INFO:   <<< batch_size: 256
+2022-12-22 10:42:25,549:INFO:   <<< batch_size_val: 64
+2022-12-22 10:42:25,549:INFO:   <<< coef_lr: 1.0
+2022-12-22 10:42:25,549:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 10:42:25,549:INFO:   <<< do_eval: True
+2022-12-22 10:42:25,549:INFO:   <<< do_pretrain: False
+2022-12-22 10:42:25,549:INFO:   <<< do_train: False
+2022-12-22 10:42:25,549:INFO:   <<< epochs: 20
+2022-12-22 10:42:25,549:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 10:42:25,549:INFO:   <<< feature_framerate: 1
+2022-12-22 10:42:25,549:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 10:42:25,549:INFO:   <<< freeze_layer_num: 0
+2022-12-22 10:42:25,549:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 10:42:25,550:INFO:   <<< local_rank: 0
+2022-12-22 10:42:25,550:INFO:   <<< loose_type: False
+2022-12-22 10:42:25,550:INFO:   <<< lr: 0.0001
+2022-12-22 10:42:25,550:INFO:   <<< lr_decay: 0.9
+2022-12-22 10:42:25,550:INFO:   <<< margin: 0.1
+2022-12-22 10:42:25,550:INFO:   <<< max_frames: 100
+2022-12-22 10:42:25,550:INFO:   <<< max_words: 20
+2022-12-22 10:42:25,550:INFO:   <<< n_display: 100
+2022-12-22 10:42:25,550:INFO:   <<< n_gpu: 1
+2022-12-22 10:42:25,550:INFO:   <<< n_pair: 1
+2022-12-22 10:42:25,550:INFO:   <<< negative_weighting: 1
+2022-12-22 10:42:25,550:INFO:   <<< num_thread_reader: 1
+2022-12-22 10:42:25,550:INFO:   <<< output_dir: output
+2022-12-22 10:42:25,550:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 10:42:25,550:INFO:   <<< rank: 1
+2022-12-22 10:42:25,550:INFO:   <<< seed: 42
+2022-12-22 10:42:25,550:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 10:42:25,550:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 10:42:25,550:INFO:   <<< video_dim: 1024
+2022-12-22 10:42:25,550:INFO:   <<< world_size: 20
+2022-12-22 10:42:25,550:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 10:42:30,820:INFO: ***** Running test *****
+2022-12-22 10:42:30,820:INFO:   Num examples = 7010
+2022-12-22 10:42:30,820:INFO:   Batch size = 64
+2022-12-22 10:42:30,820:INFO:   Num steps = 110
+2022-12-22 10:42:30,821:INFO: ***** Running val *****
+2022-12-22 10:42:30,821:INFO:   Num examples = 7010
+2022-12-22 10:43:31,651:INFO: Effective parameters:
+2022-12-22 10:43:31,651:INFO:   <<< batch_size: 256
+2022-12-22 10:43:31,651:INFO:   <<< batch_size_val: 64
+2022-12-22 10:43:31,651:INFO:   <<< coef_lr: 1.0
+2022-12-22 10:43:31,651:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 10:43:31,651:INFO:   <<< do_eval: True
+2022-12-22 10:43:31,652:INFO:   <<< do_pretrain: False
+2022-12-22 10:43:31,652:INFO:   <<< do_train: False
+2022-12-22 10:43:31,652:INFO:   <<< epochs: 20
+2022-12-22 10:43:31,652:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 10:43:31,652:INFO:   <<< feature_framerate: 1
+2022-12-22 10:43:31,652:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 10:43:31,652:INFO:   <<< freeze_layer_num: 0
+2022-12-22 10:43:31,652:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 10:43:31,652:INFO:   <<< local_rank: 0
+2022-12-22 10:43:31,652:INFO:   <<< loose_type: False
+2022-12-22 10:43:31,652:INFO:   <<< lr: 0.0001
+2022-12-22 10:43:31,652:INFO:   <<< lr_decay: 0.9
+2022-12-22 10:43:31,652:INFO:   <<< margin: 0.1
+2022-12-22 10:43:31,652:INFO:   <<< max_frames: 100
+2022-12-22 10:43:31,652:INFO:   <<< max_words: 20
+2022-12-22 10:43:31,652:INFO:   <<< n_display: 100
+2022-12-22 10:43:31,652:INFO:   <<< n_gpu: 1
+2022-12-22 10:43:31,652:INFO:   <<< n_pair: 1
+2022-12-22 10:43:31,652:INFO:   <<< negative_weighting: 1
+2022-12-22 10:43:31,652:INFO:   <<< num_thread_reader: 1
+2022-12-22 10:43:31,652:INFO:   <<< output_dir: output
+2022-12-22 10:43:31,653:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 10:43:31,653:INFO:   <<< rank: 1
+2022-12-22 10:43:31,653:INFO:   <<< seed: 42
+2022-12-22 10:43:31,653:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 10:43:31,653:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 10:43:31,653:INFO:   <<< video_dim: 1024
+2022-12-22 10:43:31,653:INFO:   <<< world_size: 20
+2022-12-22 10:43:31,653:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 10:43:36,747:INFO: ***** Running test *****
+2022-12-22 10:43:36,747:INFO:   Num examples = 7010
+2022-12-22 10:43:36,747:INFO:   Batch size = 64
+2022-12-22 10:43:36,747:INFO:   Num steps = 110
+2022-12-22 10:43:36,747:INFO: ***** Running val *****
+2022-12-22 10:43:36,747:INFO:   Num examples = 7010
+2022-12-22 10:44:36,142:INFO: Effective parameters:
+2022-12-22 10:44:36,142:INFO:   <<< batch_size: 256
+2022-12-22 10:44:36,142:INFO:   <<< batch_size_val: 64
+2022-12-22 10:44:36,142:INFO:   <<< coef_lr: 1.0
+2022-12-22 10:44:36,142:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 10:44:36,142:INFO:   <<< do_eval: True
+2022-12-22 10:44:36,142:INFO:   <<< do_pretrain: False
+2022-12-22 10:44:36,142:INFO:   <<< do_train: False
+2022-12-22 10:44:36,142:INFO:   <<< epochs: 20
+2022-12-22 10:44:36,142:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 10:44:36,142:INFO:   <<< feature_framerate: 1
+2022-12-22 10:44:36,142:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 10:44:36,142:INFO:   <<< freeze_layer_num: 0
+2022-12-22 10:44:36,142:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 10:44:36,142:INFO:   <<< local_rank: 0
+2022-12-22 10:44:36,142:INFO:   <<< loose_type: False
+2022-12-22 10:44:36,142:INFO:   <<< lr: 0.0001
+2022-12-22 10:44:36,142:INFO:   <<< lr_decay: 0.9
+2022-12-22 10:44:36,142:INFO:   <<< margin: 0.1
+2022-12-22 10:44:36,143:INFO:   <<< max_frames: 100
+2022-12-22 10:44:36,143:INFO:   <<< max_words: 20
+2022-12-22 10:44:36,143:INFO:   <<< n_display: 100
+2022-12-22 10:44:36,143:INFO:   <<< n_gpu: 1
+2022-12-22 10:44:36,143:INFO:   <<< n_pair: 1
+2022-12-22 10:44:36,143:INFO:   <<< negative_weighting: 1
+2022-12-22 10:44:36,143:INFO:   <<< num_thread_reader: 1
+2022-12-22 10:44:36,143:INFO:   <<< output_dir: output
+2022-12-22 10:44:36,143:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 10:44:36,143:INFO:   <<< rank: 1
+2022-12-22 10:44:36,143:INFO:   <<< seed: 42
+2022-12-22 10:44:36,143:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 10:44:36,143:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 10:44:36,143:INFO:   <<< video_dim: 1024
+2022-12-22 10:44:36,143:INFO:   <<< world_size: 20
+2022-12-22 10:44:36,143:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 10:44:41,110:INFO: ***** Running test *****
+2022-12-22 10:44:41,110:INFO:   Num examples = 7010
+2022-12-22 10:44:41,110:INFO:   Batch size = 64
+2022-12-22 10:44:41,110:INFO:   Num steps = 110
+2022-12-22 10:44:41,110:INFO: ***** Running val *****
+2022-12-22 10:44:41,110:INFO:   Num examples = 7010
+2022-12-22 10:45:54,191:INFO: Effective parameters:
+2022-12-22 10:45:54,191:INFO:   <<< batch_size: 256
+2022-12-22 10:45:54,192:INFO:   <<< batch_size_val: 64
+2022-12-22 10:45:54,192:INFO:   <<< coef_lr: 1.0
+2022-12-22 10:45:54,192:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 10:45:54,192:INFO:   <<< do_eval: True
+2022-12-22 10:45:54,192:INFO:   <<< do_pretrain: False
+2022-12-22 10:45:54,192:INFO:   <<< do_train: False
+2022-12-22 10:45:54,192:INFO:   <<< epochs: 20
+2022-12-22 10:45:54,192:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 10:45:54,192:INFO:   <<< feature_framerate: 1
+2022-12-22 10:45:54,192:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 10:45:54,192:INFO:   <<< freeze_layer_num: 0
+2022-12-22 10:45:54,192:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 10:45:54,192:INFO:   <<< local_rank: 0
+2022-12-22 10:45:54,192:INFO:   <<< loose_type: False
+2022-12-22 10:45:54,192:INFO:   <<< lr: 0.0001
+2022-12-22 10:45:54,192:INFO:   <<< lr_decay: 0.9
+2022-12-22 10:45:54,192:INFO:   <<< margin: 0.1
+2022-12-22 10:45:54,192:INFO:   <<< max_frames: 100
+2022-12-22 10:45:54,192:INFO:   <<< max_words: 20
+2022-12-22 10:45:54,192:INFO:   <<< n_display: 100
+2022-12-22 10:45:54,192:INFO:   <<< n_gpu: 1
+2022-12-22 10:45:54,192:INFO:   <<< n_pair: 1
+2022-12-22 10:45:54,192:INFO:   <<< negative_weighting: 1
+2022-12-22 10:45:54,192:INFO:   <<< num_thread_reader: 1
+2022-12-22 10:45:54,192:INFO:   <<< output_dir: output
+2022-12-22 10:45:54,192:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 10:45:54,192:INFO:   <<< rank: 1
+2022-12-22 10:45:54,193:INFO:   <<< seed: 42
+2022-12-22 10:45:54,193:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 10:45:54,193:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 10:45:54,193:INFO:   <<< video_dim: 1024
+2022-12-22 10:45:54,193:INFO:   <<< world_size: 20
+2022-12-22 10:45:54,193:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 10:45:59,178:INFO: ***** Running test *****
+2022-12-22 10:45:59,179:INFO:   Num examples = 7010
+2022-12-22 10:45:59,179:INFO:   Batch size = 64
+2022-12-22 10:45:59,179:INFO:   Num steps = 110
+2022-12-22 10:45:59,179:INFO: ***** Running val *****
+2022-12-22 10:45:59,179:INFO:   Num examples = 7010
+2022-12-22 10:51:52,732:INFO: Effective parameters:
+2022-12-22 10:51:52,732:INFO:   <<< batch_size: 256
+2022-12-22 10:51:52,732:INFO:   <<< batch_size_val: 64
+2022-12-22 10:51:52,732:INFO:   <<< coef_lr: 1.0
+2022-12-22 10:51:52,732:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 10:51:52,732:INFO:   <<< do_eval: True
+2022-12-22 10:51:52,732:INFO:   <<< do_pretrain: False
+2022-12-22 10:51:52,732:INFO:   <<< do_train: False
+2022-12-22 10:51:52,732:INFO:   <<< epochs: 20
+2022-12-22 10:51:52,732:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 10:51:52,732:INFO:   <<< feature_framerate: 1
+2022-12-22 10:51:52,732:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 10:51:52,732:INFO:   <<< freeze_layer_num: 0
+2022-12-22 10:51:52,732:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 10:51:52,732:INFO:   <<< local_rank: 0
+2022-12-22 10:51:52,732:INFO:   <<< loose_type: False
+2022-12-22 10:51:52,732:INFO:   <<< lr: 0.0001
+2022-12-22 10:51:52,733:INFO:   <<< lr_decay: 0.9
+2022-12-22 10:51:52,733:INFO:   <<< margin: 0.1
+2022-12-22 10:51:52,733:INFO:   <<< max_frames: 100
+2022-12-22 10:51:52,733:INFO:   <<< max_words: 20
+2022-12-22 10:51:52,733:INFO:   <<< n_display: 100
+2022-12-22 10:51:52,733:INFO:   <<< n_gpu: 1
+2022-12-22 10:51:52,733:INFO:   <<< n_pair: 1
+2022-12-22 10:51:52,733:INFO:   <<< negative_weighting: 1
+2022-12-22 10:51:52,733:INFO:   <<< num_thread_reader: 1
+2022-12-22 10:51:52,733:INFO:   <<< output_dir: output
+2022-12-22 10:51:52,733:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 10:51:52,733:INFO:   <<< rank: 1
+2022-12-22 10:51:52,733:INFO:   <<< seed: 42
+2022-12-22 10:51:52,733:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 10:51:52,733:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 10:51:52,733:INFO:   <<< video_dim: 1024
+2022-12-22 10:51:52,733:INFO:   <<< world_size: 20
+2022-12-22 10:51:52,733:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 10:51:59,208:INFO: ***** Running test *****
+2022-12-22 10:51:59,208:INFO:   Num examples = 7010
+2022-12-22 10:51:59,208:INFO:   Batch size = 64
+2022-12-22 10:51:59,208:INFO:   Num steps = 110
+2022-12-22 10:51:59,209:INFO: ***** Running val *****
+2022-12-22 10:51:59,209:INFO:   Num examples = 7010
+2022-12-22 10:52:37,985:INFO: Effective parameters:
+2022-12-22 10:52:37,985:INFO:   <<< batch_size: 256
+2022-12-22 10:52:37,986:INFO:   <<< batch_size_val: 64
+2022-12-22 10:52:37,986:INFO:   <<< coef_lr: 1.0
+2022-12-22 10:52:37,986:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 10:52:37,986:INFO:   <<< do_eval: True
+2022-12-22 10:52:37,986:INFO:   <<< do_pretrain: False
+2022-12-22 10:52:37,986:INFO:   <<< do_train: False
+2022-12-22 10:52:37,986:INFO:   <<< epochs: 20
+2022-12-22 10:52:37,986:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 10:52:37,986:INFO:   <<< feature_framerate: 1
+2022-12-22 10:52:37,986:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 10:52:37,986:INFO:   <<< freeze_layer_num: 0
+2022-12-22 10:52:37,986:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 10:52:37,986:INFO:   <<< local_rank: 0
+2022-12-22 10:52:37,986:INFO:   <<< loose_type: False
+2022-12-22 10:52:37,986:INFO:   <<< lr: 0.0001
+2022-12-22 10:52:37,986:INFO:   <<< lr_decay: 0.9
+2022-12-22 10:52:37,986:INFO:   <<< margin: 0.1
+2022-12-22 10:52:37,986:INFO:   <<< max_frames: 100
+2022-12-22 10:52:37,987:INFO:   <<< max_words: 20
+2022-12-22 10:52:37,987:INFO:   <<< n_display: 100
+2022-12-22 10:52:37,987:INFO:   <<< n_gpu: 1
+2022-12-22 10:52:37,987:INFO:   <<< n_pair: 1
+2022-12-22 10:52:37,987:INFO:   <<< negative_weighting: 1
+2022-12-22 10:52:37,987:INFO:   <<< num_thread_reader: 1
+2022-12-22 10:52:37,987:INFO:   <<< output_dir: output
+2022-12-22 10:52:37,987:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 10:52:37,987:INFO:   <<< rank: 1
+2022-12-22 10:52:37,987:INFO:   <<< seed: 42
+2022-12-22 10:52:37,987:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 10:52:37,987:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 10:52:37,987:INFO:   <<< video_dim: 1024
+2022-12-22 10:52:37,987:INFO:   <<< world_size: 20
+2022-12-22 10:52:37,987:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 10:52:42,961:INFO: ***** Running test *****
+2022-12-22 10:52:42,961:INFO:   Num examples = 7010
+2022-12-22 10:52:42,961:INFO:   Batch size = 64
+2022-12-22 10:52:42,961:INFO:   Num steps = 110
+2022-12-22 10:52:42,961:INFO: ***** Running val *****
+2022-12-22 10:52:42,961:INFO:   Num examples = 7010
+2022-12-22 10:56:17,956:INFO: Effective parameters:
+2022-12-22 10:56:17,956:INFO:   <<< batch_size: 256
+2022-12-22 10:56:17,956:INFO:   <<< batch_size_val: 64
+2022-12-22 10:56:17,956:INFO:   <<< coef_lr: 1.0
+2022-12-22 10:56:17,956:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 10:56:17,956:INFO:   <<< do_eval: True
+2022-12-22 10:56:17,956:INFO:   <<< do_pretrain: False
+2022-12-22 10:56:17,956:INFO:   <<< do_train: False
+2022-12-22 10:56:17,956:INFO:   <<< epochs: 20
+2022-12-22 10:56:17,956:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 10:56:17,956:INFO:   <<< feature_framerate: 1
+2022-12-22 10:56:17,956:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 10:56:17,956:INFO:   <<< freeze_layer_num: 0
+2022-12-22 10:56:17,956:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 10:56:17,956:INFO:   <<< local_rank: 0
+2022-12-22 10:56:17,956:INFO:   <<< loose_type: False
+2022-12-22 10:56:17,956:INFO:   <<< lr: 0.0001
+2022-12-22 10:56:17,956:INFO:   <<< lr_decay: 0.9
+2022-12-22 10:56:17,956:INFO:   <<< margin: 0.1
+2022-12-22 10:56:17,956:INFO:   <<< max_frames: 100
+2022-12-22 10:56:17,957:INFO:   <<< max_words: 20
+2022-12-22 10:56:17,957:INFO:   <<< n_display: 100
+2022-12-22 10:56:17,957:INFO:   <<< n_gpu: 1
+2022-12-22 10:56:17,957:INFO:   <<< n_pair: 1
+2022-12-22 10:56:17,957:INFO:   <<< negative_weighting: 1
+2022-12-22 10:56:17,957:INFO:   <<< num_thread_reader: 1
+2022-12-22 10:56:17,957:INFO:   <<< output_dir: output
+2022-12-22 10:56:17,957:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 10:56:17,957:INFO:   <<< rank: 1
+2022-12-22 10:56:17,957:INFO:   <<< seed: 42
+2022-12-22 10:56:17,957:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 10:56:17,957:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 10:56:17,957:INFO:   <<< video_dim: 1024
+2022-12-22 10:56:17,957:INFO:   <<< world_size: 20
+2022-12-22 10:56:17,957:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 10:56:22,714:INFO: ***** Running test *****
+2022-12-22 10:56:22,714:INFO:   Num examples = 7010
+2022-12-22 10:56:22,714:INFO:   Batch size = 64
+2022-12-22 10:56:22,714:INFO:   Num steps = 110
+2022-12-22 10:56:22,714:INFO: ***** Running val *****
+2022-12-22 10:56:22,714:INFO:   Num examples = 7010
+2022-12-22 10:57:03,017:INFO: Effective parameters:
+2022-12-22 10:57:03,017:INFO:   <<< batch_size: 256
+2022-12-22 10:57:03,017:INFO:   <<< batch_size_val: 64
+2022-12-22 10:57:03,017:INFO:   <<< coef_lr: 1.0
+2022-12-22 10:57:03,017:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 10:57:03,017:INFO:   <<< do_eval: True
+2022-12-22 10:57:03,018:INFO:   <<< do_pretrain: False
+2022-12-22 10:57:03,018:INFO:   <<< do_train: False
+2022-12-22 10:57:03,018:INFO:   <<< epochs: 20
+2022-12-22 10:57:03,018:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 10:57:03,018:INFO:   <<< feature_framerate: 1
+2022-12-22 10:57:03,018:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 10:57:03,018:INFO:   <<< freeze_layer_num: 0
+2022-12-22 10:57:03,018:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 10:57:03,018:INFO:   <<< local_rank: 0
+2022-12-22 10:57:03,018:INFO:   <<< loose_type: False
+2022-12-22 10:57:03,018:INFO:   <<< lr: 0.0001
+2022-12-22 10:57:03,018:INFO:   <<< lr_decay: 0.9
+2022-12-22 10:57:03,018:INFO:   <<< margin: 0.1
+2022-12-22 10:57:03,018:INFO:   <<< max_frames: 100
+2022-12-22 10:57:03,018:INFO:   <<< max_words: 20
+2022-12-22 10:57:03,018:INFO:   <<< n_display: 100
+2022-12-22 10:57:03,018:INFO:   <<< n_gpu: 1
+2022-12-22 10:57:03,018:INFO:   <<< n_pair: 1
+2022-12-22 10:57:03,018:INFO:   <<< negative_weighting: 1
+2022-12-22 10:57:03,018:INFO:   <<< num_thread_reader: 1
+2022-12-22 10:57:03,018:INFO:   <<< output_dir: output
+2022-12-22 10:57:03,018:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 10:57:03,018:INFO:   <<< rank: 1
+2022-12-22 10:57:03,018:INFO:   <<< seed: 42
+2022-12-22 10:57:03,018:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 10:57:03,018:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 10:57:03,018:INFO:   <<< video_dim: 1024
+2022-12-22 10:57:03,018:INFO:   <<< world_size: 20
+2022-12-22 10:57:03,019:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 10:57:07,665:INFO: ***** Running test *****
+2022-12-22 10:57:07,665:INFO:   Num examples = 7010
+2022-12-22 10:57:07,665:INFO:   Batch size = 64
+2022-12-22 10:57:07,666:INFO:   Num steps = 110
+2022-12-22 10:57:07,666:INFO: ***** Running val *****
+2022-12-22 10:57:07,666:INFO:   Num examples = 7010
+2022-12-22 10:57:38,045:INFO: Effective parameters:
+2022-12-22 10:57:38,045:INFO:   <<< batch_size: 256
+2022-12-22 10:57:38,045:INFO:   <<< batch_size_val: 64
+2022-12-22 10:57:38,045:INFO:   <<< coef_lr: 1.0
+2022-12-22 10:57:38,045:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 10:57:38,045:INFO:   <<< do_eval: True
+2022-12-22 10:57:38,045:INFO:   <<< do_pretrain: False
+2022-12-22 10:57:38,045:INFO:   <<< do_train: False
+2022-12-22 10:57:38,045:INFO:   <<< epochs: 20
+2022-12-22 10:57:38,046:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 10:57:38,046:INFO:   <<< feature_framerate: 1
+2022-12-22 10:57:38,046:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 10:57:38,046:INFO:   <<< freeze_layer_num: 0
+2022-12-22 10:57:38,046:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 10:57:38,046:INFO:   <<< local_rank: 0
+2022-12-22 10:57:38,046:INFO:   <<< loose_type: False
+2022-12-22 10:57:38,046:INFO:   <<< lr: 0.0001
+2022-12-22 10:57:38,046:INFO:   <<< lr_decay: 0.9
+2022-12-22 10:57:38,046:INFO:   <<< margin: 0.1
+2022-12-22 10:57:38,046:INFO:   <<< max_frames: 100
+2022-12-22 10:57:38,046:INFO:   <<< max_words: 20
+2022-12-22 10:57:38,046:INFO:   <<< n_display: 100
+2022-12-22 10:57:38,047:INFO:   <<< n_gpu: 1
+2022-12-22 10:57:38,047:INFO:   <<< n_pair: 1
+2022-12-22 10:57:38,047:INFO:   <<< negative_weighting: 1
+2022-12-22 10:57:38,047:INFO:   <<< num_thread_reader: 1
+2022-12-22 10:57:38,047:INFO:   <<< output_dir: output
+2022-12-22 10:57:38,047:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 10:57:38,047:INFO:   <<< rank: 1
+2022-12-22 10:57:38,047:INFO:   <<< seed: 42
+2022-12-22 10:57:38,047:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 10:57:38,047:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 10:57:38,047:INFO:   <<< video_dim: 1024
+2022-12-22 10:57:38,047:INFO:   <<< world_size: 20
+2022-12-22 10:57:38,048:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 10:57:43,046:INFO: ***** Running test *****
+2022-12-22 10:57:43,046:INFO:   Num examples = 7010
+2022-12-22 10:57:43,046:INFO:   Batch size = 64
+2022-12-22 10:57:43,046:INFO:   Num steps = 110
+2022-12-22 10:57:43,046:INFO: ***** Running val *****
+2022-12-22 10:57:43,046:INFO:   Num examples = 7010
+2022-12-22 11:08:16,256:INFO: Effective parameters:
+2022-12-22 11:08:16,256:INFO:   <<< batch_size: 256
+2022-12-22 11:08:16,256:INFO:   <<< batch_size_val: 64
+2022-12-22 11:08:16,256:INFO:   <<< coef_lr: 1.0
+2022-12-22 11:08:16,256:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 11:08:16,256:INFO:   <<< do_eval: True
+2022-12-22 11:08:16,256:INFO:   <<< do_pretrain: False
+2022-12-22 11:08:16,256:INFO:   <<< do_train: False
+2022-12-22 11:08:16,256:INFO:   <<< epochs: 20
+2022-12-22 11:08:16,256:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 11:08:16,256:INFO:   <<< feature_framerate: 1
+2022-12-22 11:08:16,256:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 11:08:16,256:INFO:   <<< freeze_layer_num: 0
+2022-12-22 11:08:16,256:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 11:08:16,256:INFO:   <<< local_rank: 0
+2022-12-22 11:08:16,256:INFO:   <<< loose_type: False
+2022-12-22 11:08:16,256:INFO:   <<< lr: 0.0001
+2022-12-22 11:08:16,256:INFO:   <<< lr_decay: 0.9
+2022-12-22 11:08:16,257:INFO:   <<< margin: 0.1
+2022-12-22 11:08:16,257:INFO:   <<< max_frames: 100
+2022-12-22 11:08:16,257:INFO:   <<< max_words: 20
+2022-12-22 11:08:16,257:INFO:   <<< n_display: 100
+2022-12-22 11:08:16,257:INFO:   <<< n_gpu: 1
+2022-12-22 11:08:16,257:INFO:   <<< n_pair: 1
+2022-12-22 11:08:16,257:INFO:   <<< negative_weighting: 1
+2022-12-22 11:08:16,257:INFO:   <<< num_thread_reader: 1
+2022-12-22 11:08:16,257:INFO:   <<< output_dir: output
+2022-12-22 11:08:16,257:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 11:08:16,257:INFO:   <<< rank: 1
+2022-12-22 11:08:16,257:INFO:   <<< seed: 42
+2022-12-22 11:08:16,257:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 11:08:16,257:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 11:08:16,257:INFO:   <<< video_dim: 1024
+2022-12-22 11:08:16,257:INFO:   <<< world_size: 20
+2022-12-22 11:08:16,257:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 11:08:20,938:INFO: ***** Running test *****
+2022-12-22 11:08:20,938:INFO:   Num examples = 7010
+2022-12-22 11:08:20,938:INFO:   Batch size = 64
+2022-12-22 11:08:20,938:INFO:   Num steps = 110
+2022-12-22 11:08:20,938:INFO: ***** Running val *****
+2022-12-22 11:08:20,938:INFO:   Num examples = 7010
+2022-12-22 11:20:22,061:INFO: Effective parameters:
+2022-12-22 11:20:22,061:INFO:   <<< batch_size: 256
+2022-12-22 11:20:22,061:INFO:   <<< batch_size_val: 64
+2022-12-22 11:20:22,061:INFO:   <<< coef_lr: 1.0
+2022-12-22 11:20:22,061:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 11:20:22,061:INFO:   <<< do_eval: True
+2022-12-22 11:20:22,061:INFO:   <<< do_pretrain: False
+2022-12-22 11:20:22,061:INFO:   <<< do_train: False
+2022-12-22 11:20:22,061:INFO:   <<< epochs: 20
+2022-12-22 11:20:22,061:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 11:20:22,061:INFO:   <<< feature_framerate: 1
+2022-12-22 11:20:22,061:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 11:20:22,061:INFO:   <<< freeze_layer_num: 0
+2022-12-22 11:20:22,061:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 11:20:22,061:INFO:   <<< local_rank: 0
+2022-12-22 11:20:22,061:INFO:   <<< loose_type: False
+2022-12-22 11:20:22,062:INFO:   <<< lr: 0.0001
+2022-12-22 11:20:22,062:INFO:   <<< lr_decay: 0.9
+2022-12-22 11:20:22,062:INFO:   <<< margin: 0.1
+2022-12-22 11:20:22,062:INFO:   <<< max_frames: 100
+2022-12-22 11:20:22,062:INFO:   <<< max_words: 20
+2022-12-22 11:20:22,062:INFO:   <<< n_display: 100
+2022-12-22 11:20:22,062:INFO:   <<< n_gpu: 1
+2022-12-22 11:20:22,062:INFO:   <<< n_pair: 1
+2022-12-22 11:20:22,062:INFO:   <<< negative_weighting: 1
+2022-12-22 11:20:22,062:INFO:   <<< num_thread_reader: 1
+2022-12-22 11:20:22,062:INFO:   <<< output_dir: output
+2022-12-22 11:20:22,062:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 11:20:22,062:INFO:   <<< rank: 1
+2022-12-22 11:20:22,062:INFO:   <<< seed: 42
+2022-12-22 11:20:22,062:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 11:20:22,062:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 11:20:22,062:INFO:   <<< video_dim: 1024
+2022-12-22 11:20:22,062:INFO:   <<< world_size: 20
+2022-12-22 11:20:22,062:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 11:39:15,821:INFO: Effective parameters:
+2022-12-22 11:39:15,821:INFO:   <<< batch_size: 256
+2022-12-22 11:39:15,821:INFO:   <<< batch_size_val: 64
+2022-12-22 11:39:15,821:INFO:   <<< coef_lr: 1.0
+2022-12-22 11:39:15,821:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 11:39:15,821:INFO:   <<< do_eval: True
+2022-12-22 11:39:15,821:INFO:   <<< do_pretrain: False
+2022-12-22 11:39:15,821:INFO:   <<< do_train: False
+2022-12-22 11:39:15,821:INFO:   <<< epochs: 20
+2022-12-22 11:39:15,821:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 11:39:15,821:INFO:   <<< feature_framerate: 1
+2022-12-22 11:39:15,821:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 11:39:15,821:INFO:   <<< freeze_layer_num: 0
+2022-12-22 11:39:15,821:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 11:39:15,821:INFO:   <<< local_rank: 0
+2022-12-22 11:39:15,822:INFO:   <<< loose_type: False
+2022-12-22 11:39:15,822:INFO:   <<< lr: 0.0001
+2022-12-22 11:39:15,822:INFO:   <<< lr_decay: 0.9
+2022-12-22 11:39:15,822:INFO:   <<< margin: 0.1
+2022-12-22 11:39:15,822:INFO:   <<< max_frames: 100
+2022-12-22 11:39:15,822:INFO:   <<< max_words: 20
+2022-12-22 11:39:15,822:INFO:   <<< n_display: 100
+2022-12-22 11:39:15,822:INFO:   <<< n_gpu: 1
+2022-12-22 11:39:15,822:INFO:   <<< n_pair: 1
+2022-12-22 11:39:15,822:INFO:   <<< negative_weighting: 1
+2022-12-22 11:39:15,822:INFO:   <<< num_thread_reader: 1
+2022-12-22 11:39:15,822:INFO:   <<< output_dir: output
+2022-12-22 11:39:15,822:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 11:39:15,822:INFO:   <<< rank: 1
+2022-12-22 11:39:15,822:INFO:   <<< seed: 42
+2022-12-22 11:39:15,822:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 11:39:15,822:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 11:39:15,822:INFO:   <<< video_dim: 1024
+2022-12-22 11:39:15,822:INFO:   <<< world_size: 20
+2022-12-22 11:39:15,822:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 11:39:47,929:INFO: Effective parameters:
+2022-12-22 11:39:47,930:INFO:   <<< batch_size: 256
+2022-12-22 11:39:47,930:INFO:   <<< batch_size_val: 64
+2022-12-22 11:39:47,930:INFO:   <<< coef_lr: 1.0
+2022-12-22 11:39:47,930:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 11:39:47,930:INFO:   <<< do_eval: True
+2022-12-22 11:39:47,930:INFO:   <<< do_pretrain: False
+2022-12-22 11:39:47,930:INFO:   <<< do_train: False
+2022-12-22 11:39:47,930:INFO:   <<< epochs: 20
+2022-12-22 11:39:47,930:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 11:39:47,930:INFO:   <<< feature_framerate: 1
+2022-12-22 11:39:47,930:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 11:39:47,930:INFO:   <<< freeze_layer_num: 0
+2022-12-22 11:39:47,930:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 11:39:47,930:INFO:   <<< local_rank: 0
+2022-12-22 11:39:47,930:INFO:   <<< loose_type: False
+2022-12-22 11:39:47,930:INFO:   <<< lr: 0.0001
+2022-12-22 11:39:47,930:INFO:   <<< lr_decay: 0.9
+2022-12-22 11:39:47,930:INFO:   <<< margin: 0.1
+2022-12-22 11:39:47,930:INFO:   <<< max_frames: 100
+2022-12-22 11:39:47,930:INFO:   <<< max_words: 20
+2022-12-22 11:39:47,930:INFO:   <<< n_display: 100
+2022-12-22 11:39:47,930:INFO:   <<< n_gpu: 1
+2022-12-22 11:39:47,931:INFO:   <<< n_pair: 1
+2022-12-22 11:39:47,931:INFO:   <<< negative_weighting: 1
+2022-12-22 11:39:47,931:INFO:   <<< num_thread_reader: 1
+2022-12-22 11:39:47,931:INFO:   <<< output_dir: output
+2022-12-22 11:39:47,931:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 11:39:47,931:INFO:   <<< rank: 1
+2022-12-22 11:39:47,931:INFO:   <<< seed: 42
+2022-12-22 11:39:47,931:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 11:39:47,931:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 11:39:47,931:INFO:   <<< video_dim: 1024
+2022-12-22 11:39:47,931:INFO:   <<< world_size: 20
+2022-12-22 11:39:47,931:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 11:50:36,453:INFO: Effective parameters:
+2022-12-22 11:50:36,453:INFO:   <<< batch_size: 256
+2022-12-22 11:50:36,453:INFO:   <<< batch_size_val: 64
+2022-12-22 11:50:36,453:INFO:   <<< coef_lr: 1.0
+2022-12-22 11:50:36,453:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 11:50:36,453:INFO:   <<< do_eval: True
+2022-12-22 11:50:36,454:INFO:   <<< do_pretrain: False
+2022-12-22 11:50:36,454:INFO:   <<< do_train: False
+2022-12-22 11:50:36,454:INFO:   <<< epochs: 20
+2022-12-22 11:50:36,454:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 11:50:36,454:INFO:   <<< feature_framerate: 1
+2022-12-22 11:50:36,454:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 11:50:36,454:INFO:   <<< freeze_layer_num: 0
+2022-12-22 11:50:36,454:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 11:50:36,454:INFO:   <<< local_rank: 0
+2022-12-22 11:50:36,454:INFO:   <<< loose_type: False
+2022-12-22 11:50:36,454:INFO:   <<< lr: 0.0001
+2022-12-22 11:50:36,454:INFO:   <<< lr_decay: 0.9
+2022-12-22 11:50:36,454:INFO:   <<< margin: 0.1
+2022-12-22 11:50:36,454:INFO:   <<< max_frames: 100
+2022-12-22 11:50:36,454:INFO:   <<< max_words: 20
+2022-12-22 11:50:36,454:INFO:   <<< n_display: 100
+2022-12-22 11:50:36,455:INFO:   <<< n_gpu: 1
+2022-12-22 11:50:36,455:INFO:   <<< n_pair: 1
+2022-12-22 11:50:36,455:INFO:   <<< negative_weighting: 1
+2022-12-22 11:50:36,455:INFO:   <<< num_thread_reader: 1
+2022-12-22 11:50:36,455:INFO:   <<< output_dir: output
+2022-12-22 11:50:36,455:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 11:50:36,455:INFO:   <<< rank: 1
+2022-12-22 11:50:36,455:INFO:   <<< seed: 42
+2022-12-22 11:50:36,455:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 11:50:36,455:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 11:50:36,455:INFO:   <<< video_dim: 1024
+2022-12-22 11:50:36,455:INFO:   <<< world_size: 20
+2022-12-22 11:50:36,455:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 11:51:05,345:INFO: Effective parameters:
+2022-12-22 11:51:05,345:INFO:   <<< batch_size: 256
+2022-12-22 11:51:05,345:INFO:   <<< batch_size_val: 64
+2022-12-22 11:51:05,345:INFO:   <<< coef_lr: 1.0
+2022-12-22 11:51:05,345:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 11:51:05,345:INFO:   <<< do_eval: True
+2022-12-22 11:51:05,345:INFO:   <<< do_pretrain: False
+2022-12-22 11:51:05,345:INFO:   <<< do_train: False
+2022-12-22 11:51:05,345:INFO:   <<< epochs: 20
+2022-12-22 11:51:05,345:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 11:51:05,345:INFO:   <<< feature_framerate: 1
+2022-12-22 11:51:05,345:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 11:51:05,345:INFO:   <<< freeze_layer_num: 0
+2022-12-22 11:51:05,345:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 11:51:05,345:INFO:   <<< local_rank: 0
+2022-12-22 11:51:05,346:INFO:   <<< loose_type: False
+2022-12-22 11:51:05,346:INFO:   <<< lr: 0.0001
+2022-12-22 11:51:05,346:INFO:   <<< lr_decay: 0.9
+2022-12-22 11:51:05,346:INFO:   <<< margin: 0.1
+2022-12-22 11:51:05,346:INFO:   <<< max_frames: 100
+2022-12-22 11:51:05,346:INFO:   <<< max_words: 20
+2022-12-22 11:51:05,346:INFO:   <<< n_display: 100
+2022-12-22 11:51:05,346:INFO:   <<< n_gpu: 1
+2022-12-22 11:51:05,346:INFO:   <<< n_pair: 1
+2022-12-22 11:51:05,346:INFO:   <<< negative_weighting: 1
+2022-12-22 11:51:05,346:INFO:   <<< num_thread_reader: 1
+2022-12-22 11:51:05,346:INFO:   <<< output_dir: output
+2022-12-22 11:51:05,346:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 11:51:05,346:INFO:   <<< rank: 1
+2022-12-22 11:51:05,346:INFO:   <<< seed: 42
+2022-12-22 11:51:05,346:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 11:51:05,346:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 11:51:05,346:INFO:   <<< video_dim: 1024
+2022-12-22 11:51:05,346:INFO:   <<< world_size: 20
+2022-12-22 11:51:05,346:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 11:51:08,817:INFO: ***** Running test *****
+2022-12-22 11:51:08,817:INFO:   Num examples = 7010
+2022-12-22 11:51:08,817:INFO:   Batch size = 64
+2022-12-22 11:51:08,817:INFO:   Num steps = 110
+2022-12-22 11:51:08,817:INFO: ***** Running val *****
+2022-12-22 11:51:08,817:INFO:   Num examples = 7010
+2022-12-22 12:04:22,478:INFO: Effective parameters:
+2022-12-22 12:04:22,478:INFO:   <<< batch_size: 256
+2022-12-22 12:04:22,478:INFO:   <<< batch_size_val: 64
+2022-12-22 12:04:22,478:INFO:   <<< coef_lr: 1.0
+2022-12-22 12:04:22,478:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 12:04:22,479:INFO:   <<< do_eval: True
+2022-12-22 12:04:22,479:INFO:   <<< do_pretrain: False
+2022-12-22 12:04:22,479:INFO:   <<< do_train: False
+2022-12-22 12:04:22,479:INFO:   <<< epochs: 20
+2022-12-22 12:04:22,479:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 12:04:22,479:INFO:   <<< feature_framerate: 1
+2022-12-22 12:04:22,479:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 12:04:22,479:INFO:   <<< freeze_layer_num: 0
+2022-12-22 12:04:22,479:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 12:04:22,479:INFO:   <<< local_rank: 0
+2022-12-22 12:04:22,479:INFO:   <<< loose_type: False
+2022-12-22 12:04:22,479:INFO:   <<< lr: 0.0001
+2022-12-22 12:04:22,479:INFO:   <<< lr_decay: 0.9
+2022-12-22 12:04:22,479:INFO:   <<< margin: 0.1
+2022-12-22 12:04:22,479:INFO:   <<< max_frames: 100
+2022-12-22 12:04:22,479:INFO:   <<< max_words: 20
+2022-12-22 12:04:22,479:INFO:   <<< n_display: 100
+2022-12-22 12:04:22,479:INFO:   <<< n_gpu: 1
+2022-12-22 12:04:22,479:INFO:   <<< n_pair: 1
+2022-12-22 12:04:22,479:INFO:   <<< negative_weighting: 1
+2022-12-22 12:04:22,479:INFO:   <<< num_thread_reader: 1
+2022-12-22 12:04:22,479:INFO:   <<< output_dir: output
+2022-12-22 12:04:22,479:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 12:04:22,479:INFO:   <<< rank: 1
+2022-12-22 12:04:22,479:INFO:   <<< seed: 42
+2022-12-22 12:04:22,479:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 12:04:22,480:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 12:04:22,480:INFO:   <<< video_dim: 1024
+2022-12-22 12:04:22,480:INFO:   <<< world_size: 20
+2022-12-22 12:04:22,480:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 12:06:13,651:INFO: Effective parameters:
+2022-12-22 12:06:13,651:INFO:   <<< batch_size: 256
+2022-12-22 12:06:13,651:INFO:   <<< batch_size_val: 64
+2022-12-22 12:06:13,651:INFO:   <<< coef_lr: 1.0
+2022-12-22 12:06:13,651:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 12:06:13,651:INFO:   <<< do_eval: True
+2022-12-22 12:06:13,651:INFO:   <<< do_pretrain: False
+2022-12-22 12:06:13,651:INFO:   <<< do_train: False
+2022-12-22 12:06:13,651:INFO:   <<< epochs: 20
+2022-12-22 12:06:13,651:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 12:06:13,651:INFO:   <<< feature_framerate: 1
+2022-12-22 12:06:13,652:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 12:06:13,652:INFO:   <<< freeze_layer_num: 0
+2022-12-22 12:06:13,652:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 12:06:13,652:INFO:   <<< local_rank: 0
+2022-12-22 12:06:13,652:INFO:   <<< loose_type: False
+2022-12-22 12:06:13,652:INFO:   <<< lr: 0.0001
+2022-12-22 12:06:13,652:INFO:   <<< lr_decay: 0.9
+2022-12-22 12:06:13,652:INFO:   <<< margin: 0.1
+2022-12-22 12:06:13,652:INFO:   <<< max_frames: 100
+2022-12-22 12:06:13,652:INFO:   <<< max_words: 20
+2022-12-22 12:06:13,652:INFO:   <<< n_display: 100
+2022-12-22 12:06:13,652:INFO:   <<< n_gpu: 1
+2022-12-22 12:06:13,652:INFO:   <<< n_pair: 1
+2022-12-22 12:06:13,652:INFO:   <<< negative_weighting: 1
+2022-12-22 12:06:13,652:INFO:   <<< num_thread_reader: 1
+2022-12-22 12:06:13,652:INFO:   <<< output_dir: output
+2022-12-22 12:06:13,652:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 12:06:13,652:INFO:   <<< rank: 1
+2022-12-22 12:06:13,652:INFO:   <<< seed: 42
+2022-12-22 12:06:13,652:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 12:06:13,652:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 12:06:13,652:INFO:   <<< video_dim: 1024
+2022-12-22 12:06:13,652:INFO:   <<< world_size: 20
+2022-12-22 12:06:13,652:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 12:08:42,604:INFO: Effective parameters:
+2022-12-22 12:08:42,604:INFO:   <<< batch_size: 256
+2022-12-22 12:08:42,604:INFO:   <<< batch_size_val: 64
+2022-12-22 12:08:42,604:INFO:   <<< coef_lr: 1.0
+2022-12-22 12:08:42,605:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 12:08:42,605:INFO:   <<< do_eval: True
+2022-12-22 12:08:42,605:INFO:   <<< do_pretrain: False
+2022-12-22 12:08:42,605:INFO:   <<< do_train: False
+2022-12-22 12:08:42,605:INFO:   <<< epochs: 20
+2022-12-22 12:08:42,605:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 12:08:42,605:INFO:   <<< feature_framerate: 1
+2022-12-22 12:08:42,605:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 12:08:42,605:INFO:   <<< freeze_layer_num: 0
+2022-12-22 12:08:42,605:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 12:08:42,605:INFO:   <<< local_rank: 0
+2022-12-22 12:08:42,605:INFO:   <<< loose_type: False
+2022-12-22 12:08:42,605:INFO:   <<< lr: 0.0001
+2022-12-22 12:08:42,605:INFO:   <<< lr_decay: 0.9
+2022-12-22 12:08:42,605:INFO:   <<< margin: 0.1
+2022-12-22 12:08:42,605:INFO:   <<< max_frames: 100
+2022-12-22 12:08:42,605:INFO:   <<< max_words: 20
+2022-12-22 12:08:42,605:INFO:   <<< n_display: 100
+2022-12-22 12:08:42,605:INFO:   <<< n_gpu: 1
+2022-12-22 12:08:42,605:INFO:   <<< n_pair: 1
+2022-12-22 12:08:42,605:INFO:   <<< negative_weighting: 1
+2022-12-22 12:08:42,605:INFO:   <<< num_thread_reader: 1
+2022-12-22 12:08:42,605:INFO:   <<< output_dir: output
+2022-12-22 12:08:42,605:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 12:08:42,605:INFO:   <<< rank: 1
+2022-12-22 12:08:42,606:INFO:   <<< seed: 42
+2022-12-22 12:08:42,606:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 12:08:42,606:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 12:08:42,606:INFO:   <<< video_dim: 1024
+2022-12-22 12:08:42,606:INFO:   <<< world_size: 20
+2022-12-22 12:08:42,606:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 12:08:46,001:INFO: ***** Running test *****
+2022-12-22 12:08:46,001:INFO:   Num examples = 7
+2022-12-22 12:08:46,001:INFO:   Batch size = 64
+2022-12-22 12:08:46,001:INFO:   Num steps = 1
+2022-12-22 12:08:46,001:INFO: ***** Running val *****
+2022-12-22 12:08:46,001:INFO:   Num examples = 7
+2022-12-22 12:09:56,246:INFO: Effective parameters:
+2022-12-22 12:09:56,246:INFO:   <<< batch_size: 256
+2022-12-22 12:09:56,246:INFO:   <<< batch_size_val: 64
+2022-12-22 12:09:56,246:INFO:   <<< coef_lr: 1.0
+2022-12-22 12:09:56,246:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 12:09:56,246:INFO:   <<< do_eval: True
+2022-12-22 12:09:56,246:INFO:   <<< do_pretrain: False
+2022-12-22 12:09:56,246:INFO:   <<< do_train: False
+2022-12-22 12:09:56,246:INFO:   <<< epochs: 20
+2022-12-22 12:09:56,247:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 12:09:56,247:INFO:   <<< feature_framerate: 1
+2022-12-22 12:09:56,247:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 12:09:56,247:INFO:   <<< freeze_layer_num: 0
+2022-12-22 12:09:56,247:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 12:09:56,247:INFO:   <<< local_rank: 0
+2022-12-22 12:09:56,247:INFO:   <<< loose_type: False
+2022-12-22 12:09:56,247:INFO:   <<< lr: 0.0001
+2022-12-22 12:09:56,247:INFO:   <<< lr_decay: 0.9
+2022-12-22 12:09:56,247:INFO:   <<< margin: 0.1
+2022-12-22 12:09:56,247:INFO:   <<< max_frames: 100
+2022-12-22 12:09:56,247:INFO:   <<< max_words: 20
+2022-12-22 12:09:56,247:INFO:   <<< n_display: 100
+2022-12-22 12:09:56,247:INFO:   <<< n_gpu: 1
+2022-12-22 12:09:56,247:INFO:   <<< n_pair: 1
+2022-12-22 12:09:56,247:INFO:   <<< negative_weighting: 1
+2022-12-22 12:09:56,247:INFO:   <<< num_thread_reader: 1
+2022-12-22 12:09:56,247:INFO:   <<< output_dir: output
+2022-12-22 12:09:56,247:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 12:09:56,247:INFO:   <<< rank: 1
+2022-12-22 12:09:56,247:INFO:   <<< seed: 42
+2022-12-22 12:09:56,247:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 12:09:56,247:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 12:09:56,247:INFO:   <<< video_dim: 1024
+2022-12-22 12:09:56,247:INFO:   <<< world_size: 20
+2022-12-22 12:09:56,247:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 12:09:59,967:INFO: ***** Running test *****
+2022-12-22 12:09:59,967:INFO:   Num examples = 7
+2022-12-22 12:09:59,967:INFO:   Batch size = 64
+2022-12-22 12:09:59,967:INFO:   Num steps = 1
+2022-12-22 12:09:59,967:INFO: ***** Running val *****
+2022-12-22 12:09:59,967:INFO:   Num examples = 7
+2022-12-22 12:10:25,208:INFO: Effective parameters:
+2022-12-22 12:10:25,208:INFO:   <<< batch_size: 256
+2022-12-22 12:10:25,208:INFO:   <<< batch_size_val: 64
+2022-12-22 12:10:25,209:INFO:   <<< coef_lr: 1.0
+2022-12-22 12:10:25,209:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 12:10:25,209:INFO:   <<< do_eval: True
+2022-12-22 12:10:25,209:INFO:   <<< do_pretrain: False
+2022-12-22 12:10:25,209:INFO:   <<< do_train: False
+2022-12-22 12:10:25,209:INFO:   <<< epochs: 20
+2022-12-22 12:10:25,209:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 12:10:25,209:INFO:   <<< feature_framerate: 1
+2022-12-22 12:10:25,209:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 12:10:25,209:INFO:   <<< freeze_layer_num: 0
+2022-12-22 12:10:25,209:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 12:10:25,209:INFO:   <<< local_rank: 0
+2022-12-22 12:10:25,209:INFO:   <<< loose_type: False
+2022-12-22 12:10:25,209:INFO:   <<< lr: 0.0001
+2022-12-22 12:10:25,209:INFO:   <<< lr_decay: 0.9
+2022-12-22 12:10:25,209:INFO:   <<< margin: 0.1
+2022-12-22 12:10:25,209:INFO:   <<< max_frames: 100
+2022-12-22 12:10:25,209:INFO:   <<< max_words: 20
+2022-12-22 12:10:25,209:INFO:   <<< n_display: 100
+2022-12-22 12:10:25,210:INFO:   <<< n_gpu: 1
+2022-12-22 12:10:25,210:INFO:   <<< n_pair: 1
+2022-12-22 12:10:25,210:INFO:   <<< negative_weighting: 1
+2022-12-22 12:10:25,210:INFO:   <<< num_thread_reader: 1
+2022-12-22 12:10:25,210:INFO:   <<< output_dir: output
+2022-12-22 12:10:25,210:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 12:10:25,210:INFO:   <<< rank: 1
+2022-12-22 12:10:25,210:INFO:   <<< seed: 42
+2022-12-22 12:10:25,210:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 12:10:25,210:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 12:10:25,210:INFO:   <<< video_dim: 1024
+2022-12-22 12:10:25,210:INFO:   <<< world_size: 20
+2022-12-22 12:10:25,210:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 12:10:28,709:INFO: ***** Running test *****
+2022-12-22 12:10:28,709:INFO:   Num examples = 7
+2022-12-22 12:10:28,710:INFO:   Batch size = 64
+2022-12-22 12:10:28,710:INFO:   Num steps = 1
+2022-12-22 12:10:28,710:INFO: ***** Running val *****
+2022-12-22 12:10:28,710:INFO:   Num examples = 7
+2022-12-22 12:17:46,994:INFO: Effective parameters:
+2022-12-22 12:17:46,995:INFO:   <<< batch_size: 256
+2022-12-22 12:17:46,995:INFO:   <<< batch_size_val: 64
+2022-12-22 12:17:46,995:INFO:   <<< coef_lr: 1.0
+2022-12-22 12:17:46,995:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 12:17:46,995:INFO:   <<< do_eval: True
+2022-12-22 12:17:46,995:INFO:   <<< do_pretrain: False
+2022-12-22 12:17:46,995:INFO:   <<< do_train: False
+2022-12-22 12:17:46,995:INFO:   <<< epochs: 20
+2022-12-22 12:17:46,995:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 12:17:46,995:INFO:   <<< feature_framerate: 1
+2022-12-22 12:17:46,995:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 12:17:46,995:INFO:   <<< freeze_layer_num: 0
+2022-12-22 12:17:46,995:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 12:17:46,995:INFO:   <<< local_rank: 0
+2022-12-22 12:17:46,996:INFO:   <<< loose_type: False
+2022-12-22 12:17:46,996:INFO:   <<< lr: 0.0001
+2022-12-22 12:17:46,996:INFO:   <<< lr_decay: 0.9
+2022-12-22 12:17:46,996:INFO:   <<< margin: 0.1
+2022-12-22 12:17:46,996:INFO:   <<< max_frames: 100
+2022-12-22 12:17:46,996:INFO:   <<< max_words: 20
+2022-12-22 12:17:46,996:INFO:   <<< n_display: 100
+2022-12-22 12:17:46,996:INFO:   <<< n_gpu: 1
+2022-12-22 12:17:46,996:INFO:   <<< n_pair: 1
+2022-12-22 12:17:46,996:INFO:   <<< negative_weighting: 1
+2022-12-22 12:17:46,996:INFO:   <<< num_thread_reader: 1
+2022-12-22 12:17:46,996:INFO:   <<< output_dir: output
+2022-12-22 12:17:46,996:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 12:17:46,996:INFO:   <<< rank: 1
+2022-12-22 12:17:46,996:INFO:   <<< seed: 42
+2022-12-22 12:17:46,996:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 12:17:46,996:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 12:17:46,996:INFO:   <<< video_dim: 1024
+2022-12-22 12:17:46,997:INFO:   <<< world_size: 20
+2022-12-22 12:17:46,997:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 12:17:50,290:INFO: ***** Running test *****
+2022-12-22 12:17:50,290:INFO:   Num examples = 7
+2022-12-22 12:17:50,290:INFO:   Batch size = 64
+2022-12-22 12:17:50,290:INFO:   Num steps = 1
+2022-12-22 12:17:50,290:INFO: ***** Running val *****
+2022-12-22 12:17:50,290:INFO:   Num examples = 7
+2022-12-22 12:18:47,655:INFO: Effective parameters:
+2022-12-22 12:18:47,655:INFO:   <<< batch_size: 256
+2022-12-22 12:18:47,655:INFO:   <<< batch_size_val: 64
+2022-12-22 12:18:47,655:INFO:   <<< coef_lr: 1.0
+2022-12-22 12:18:47,655:INFO:   <<< data_path: data/caption.pickle
+2022-12-22 12:18:47,656:INFO:   <<< do_eval: True
+2022-12-22 12:18:47,656:INFO:   <<< do_pretrain: False
+2022-12-22 12:18:47,656:INFO:   <<< do_train: False
+2022-12-22 12:18:47,656:INFO:   <<< epochs: 20
+2022-12-22 12:18:47,656:INFO:   <<< expand_msrvtt_sentences: False
+2022-12-22 12:18:47,656:INFO:   <<< feature_framerate: 1
+2022-12-22 12:18:47,656:INFO:   <<< features_path: data/videos_feature.pickle
+2022-12-22 12:18:47,656:INFO:   <<< freeze_layer_num: 0
+2022-12-22 12:18:47,656:INFO:   <<< hard_negative_rate: 0.5
+2022-12-22 12:18:47,656:INFO:   <<< local_rank: 0
+2022-12-22 12:18:47,656:INFO:   <<< loose_type: False
+2022-12-22 12:18:47,656:INFO:   <<< lr: 0.0001
+2022-12-22 12:18:47,656:INFO:   <<< lr_decay: 0.9
+2022-12-22 12:18:47,656:INFO:   <<< margin: 0.1
+2022-12-22 12:18:47,656:INFO:   <<< max_frames: 100
+2022-12-22 12:18:47,656:INFO:   <<< max_words: 20
+2022-12-22 12:18:47,656:INFO:   <<< n_display: 100
+2022-12-22 12:18:47,656:INFO:   <<< n_gpu: 1
+2022-12-22 12:18:47,656:INFO:   <<< n_pair: 1
+2022-12-22 12:18:47,656:INFO:   <<< negative_weighting: 1
+2022-12-22 12:18:47,656:INFO:   <<< num_thread_reader: 1
+2022-12-22 12:18:47,656:INFO:   <<< output_dir: output
+2022-12-22 12:18:47,656:INFO:   <<< pretrained_clip_name: ViT-B/32
+2022-12-22 12:18:47,656:INFO:   <<< rank: 1
+2022-12-22 12:18:47,656:INFO:   <<< seed: 42
+2022-12-22 12:18:47,656:INFO:   <<< train_csv: msrvtt_data/MSRVTT_JSFUSION_test.csv
+2022-12-22 12:18:47,656:INFO:   <<< val_csv: msrvtt_data/train.csv
+2022-12-22 12:18:47,656:INFO:   <<< video_dim: 1024
+2022-12-22 12:18:47,657:INFO:   <<< world_size: 20
+2022-12-22 12:18:47,657:INFO: device: cuda:0 n_gpu: 1
+2022-12-22 12:18:51,237:INFO: ***** Running test *****
+2022-12-22 12:18:51,237:INFO:   Num examples = 7
+2022-12-22 12:18:51,237:INFO:   Batch size = 64
+2022-12-22 12:18:51,237:INFO:   Num steps = 1
+2022-12-22 12:18:51,237:INFO: ***** Running val *****
+2022-12-22 12:18:51,237:INFO:   Num examples = 7
